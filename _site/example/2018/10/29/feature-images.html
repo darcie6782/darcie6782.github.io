@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.4
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/Type-on-Strap/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Type-on-Strap/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/Type-on-Strap/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/Type-on-Strap/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/Type-on-Strap/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/Type-on-Strap/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/Type-on-Strap/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/Type-on-Strap/assets/img/thumbnails/feature-img/desk-messy.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Feature images | Type on Strap</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Feature images" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hopefully you will find enough information about how to set images in your blog here. This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages:" />
+<meta property="og:description" content="Hopefully you will find enough information about how to set images in your blog here. This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages:" />
+<link rel="canonical" href="http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html" />
+<meta property="og:url" content="http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html" />
+<meta property="og:site_name" content="Type on Strap" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-10-29T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Feature images" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2018-10-29T00:00:00+08:00","datePublished":"2018-10-29T00:00:00+08:00","description":"Hopefully you will find enough information about how to set images in your blog here. This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages:","headline":"Feature images","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html"},"url":"http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Type on Strap" href="http://localhost:4000/Type-on-Strap/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Type-on-Strap/feed.xml" title="Type on Strap" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Feature images">
+    <meta name="twitter:description" content="Hopefully you will find enough information about how to set images in your blog here.This is an example of a post which includes a feature image specified in...">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/Type-on-Strap/assets/img/thumbnails/feature-img/desk-messy.jpeg">
+    <meta name="twitter:image:alt" content="Feature images">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/Type-on-Strap/">
+			<img alt="logo img" class="avatar" src="/Type-on-Strap/assets/img/triangle.png" />
+		</a>
+        
+        <a class="site-title" aria-label="Type on Strap" href="/Type-on-Strap/">
+        Type on Strap
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About" title="About" href="/Type-on-Strap/about/">
+                     About 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Gallery" title="Gallery" href="/Type-on-Strap/gallery/">
+                     Gallery 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Portfolio" title="Portfolio" href="/Type-on-Strap/portfolio/">
+                     Portfolio 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/Type-on-Strap/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/Type-on-Strap/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+        
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Feature images " aria-label="Feature images" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image" >
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Feature+images" class="title">Feature images</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      October 29, 2018
+    </p></div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <p>Hopefully you will find enough information about how to set images in your blog here.
+This is an example of a post which includes a feature image specified in the front matter of the post. 
+The feature image spans the full-width of the page, and is shown with the title on permalink pages:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">feature-img</span><span class="pi">:</span> <span class="s2">"</span><span class="s">assets/img/feature-img/desk-messy.jpeg"</span>
+<span class="na">thumbnail</span><span class="pi">:</span> <span class="s2">"</span><span class="s">assets/img/thumbnails/feature-img/desk-messy.jpeg"</span> 
+</code></pre></div></div>
+
+<p>You can also use a thumbnail, a smaller version of the same image to improve loading of the page.
+The thumbnail will also be used when you share your article on other platform (linkedin, whatsapp, facebook, …).</p>
+
+<blockquote>
+  <ul>
+    <li>And now it is working</li>
+  </ul>
+</blockquote>
+
+<p>You can also add images aligned in your post using the <code class="language-plaintext highlighter-rouge">aligner</code> include.
+Make sure to separate all of the image path from in a string separated with <code class="language-plaintext highlighter-rouge">,</code>.
+It by default look into <code class="language-plaintext highlighter-rouge">assets/img/</code> so give the path from there, example:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">{</span><span class="sx">% include </span><span class="n">aligner</span><span class="p">.</span><span class="nf">html</span> <span class="n">images</span><span class="o">=</span><span class="s2">"pexels/book-glass.jpeg,triangle.png"</span> <span class="o">%</span><span class="p">}</span></code></pre></figure>
+
+<div class="row">
+    
+    <div class="column">
+        <img src="/Type-on-Strap/assets/img/pexels/book-glass.jpeg" alt="book-glass.jpeg" />
+    </div>
+    
+    <div class="column">
+        <img src="/Type-on-Strap/assets/img/feature-img/desk-messy.jpeg" alt="desk-messy.jpeg" />
+    </div>
+    
+</div>
+
+<p>Here you have two images side by side, but you can set more and set the amount per columns 
+(by specifying the number of columns or let it be automatic using <code class="language-plaintext highlighter-rouge">"auto"</code>):</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">{</span><span class="sx">% include </span><span class="n">aligner</span><span class="p">.</span><span class="nf">html</span> <span class="n">images</span><span class="o">=</span><span class="s2">"portfolio/cabin.png,portfolio/cake.png,portfolio/circus.png"</span> <span class="n">column</span><span class="o">=</span><span class="mi">3</span> <span class="o">%</span><span class="p">}</span></code></pre></figure>
+
+<div class="row">
+    
+    <div style="flex: 33.333333333333336%">
+        <img src="/Type-on-Strap/assets/img/portfolio/cabin.png" alt="cabin.png" />
+    </div>
+    
+    <div style="flex: 33.333333333333336%">
+        <img src="/Type-on-Strap/assets/img/portfolio/cake.png" alt="cake.png" />
+    </div>
+    
+    <div style="flex: 33.333333333333336%">
+        <img src="/Type-on-Strap/assets/img/portfolio/circus.png" alt="circus.png" />
+    </div>
+    
+</div>
+
+<p>it also works with only one images, it is made to display it smaller than normally.
+However you can just use the Markdown way of doing it to get the image normal sized and centered.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Markdown way (bigger)</span>
+<span class="o">!</span><span class="p">[</span><span class="no">Travel</span><span class="p">]({{</span> <span class="s2">"/assets/img/pexels/computer.jpeg"</span> <span class="o">|</span> <span class="n">relative_url</span><span class="p">}})</span>
+<span class="c1"># Aligner with only One (50% of width)</span>
+<span class="p">{</span><span class="sx">% include </span><span class="n">aligner</span><span class="p">.</span><span class="nf">html</span> <span class="n">images</span><span class="o">=</span><span class="s2">"pexels/computer.jpeg"</span> <span class="o">%</span><span class="p">}</span></code></pre></figure>
+
+<div class="row">
+    
+    <div class="column">
+        <img class="single" src="/Type-on-Strap/assets/img/pexels/computer.jpeg" alt="computer.jpeg" />
+    </div>
+    
+</div>
+
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html" target="_blank"
+               title=" Facebook">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Feature+images%20http%3A%2F%2Flocalhost%3A4000%2FType-on-Strap%2Fexample%2F2018%2F10%2F29%2Ffeature-images.html"
+               target="_blank" title="">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&u=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html&quote=Feature+images%20%7C%20Type+on+Strap&s="
+               target="_blank" title=" Tumblr">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html&media=http://localhost:4000/Type-on-Strap/assets/img/feature-img/desk-messy.jpeg$description=Hopefully+you+will+find+enough+information+about+how+to+set+images+in+your+blog+here.%0AThis+is+an+example+of+a+post+which+includes+a+feature+image+specified+in+the+front+matter+of+the+post.+%0AThe+feature+image+spans+the+full-width+of+the+page%2C+and+is+shown+with+the+title+on+permalink+pages%3A%0A"
+               target="_blank" title="">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html&title=Feature+images%20%7C%20Type+on+Strap"
+               target="_blank" title=" Reddit">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html&title=Feature+images%20%7C%20Type+on+Strap&summary=&source=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html"
+               target="_blank" title=" LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Feature images%20%7C%20Type on Strap&body=http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html"
+               target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/Type-on-Strap/tags#Image">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Image</p>
+        </a></li>
+      
+        <li><a class="button" href="/Type-on-Strap/tags#Test">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Test</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="Color Post" href="/Type-on-Strap/example/2019/05/18/color-post.html">
+            <p>Previous post</p>
+            Color Post
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Bootstrap" href="/Type-on-Strap/demo/2017/09/17/Use-Bootstrap.html">
+            <p>Next post</p>
+            Bootstrap
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+
+  
+  header#main { background-image: url('/Type-on-Strap/assets/img/feature-img/desk-messy.jpeg'); }
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/Type-on-Strap/feed.xml"
+       title="Follow RSS feed"
+       target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare"
+               title="Follow on Github"
+               target="_blank"
+               rel="noopener">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>

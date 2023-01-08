@@ -1,0 +1,223 @@
+[
+  
+  {
+    "title"    : "Dark Mode",
+    "category" : "",
+    "tags"     : " Katex, Mermaid, Markdown",
+    "url"      : "/Type-on-Strap/demo/2021/04/27/dark-mode.html",
+    "date"     : "April 27, 2021",
+    "excerpt"  : "More colors with less light. Click the half-moon most top-right button to turn the lights ON/OFF.\nHere is a bit of everything, so you can check how the theme look, have fun! 👌\n\nHeaders\nLevel 2\nLevel 3\nLevel 4\nLevel 5\nLevel 6\n\nHeaders with links\nLe...",
+  "content"  : "More colors with less light. Click the half-moon most top-right button to turn the lights ON/OFF.\nHere is a bit of everything, so you can check how the theme look, have fun! 👌\n\nHeaders\nLevel 2\nLevel 3\nLevel 4\nLevel 5\nLevel 6\n\nHeaders with links\nLevel 2\nLevel 3\nLevel 4\nLevel 5\nLevel 6\n\nCode highlight\nMode specific code highlighting themes. Kramdown which is responsible for the color highlighting may be more limited than your IDE.\n\n#!/usr/bin/env python\n&quot;&quot;&quot;\nTest file for syntax\n&quot;&quot;&quot;\n# TODO: Use dark mode\nfrom sys import os\n\ndef foo(bar): \n    try:\n        print(bar)\n    except NameError:\n        print(&quot;Variable bar is not defined&quot;)\n\n\nclass Bar(object): \n    def __init__(self):\n        foo(1)\n        self.octal = &#39;\\04&#39;\n        self.text = &quot;&quot;&quot;Example \\t\\n&quot;&quot;&quot;\n    \n    def __exit__(self, *args):\n        print(&#39;exit\\u1111\\xFF&#39;)\n        pass\n    \n    @staticmethod\n    def example():\n        assert (1.0 and 2L) or True\n        return { &quot;example&quot;: [(1,), (r&#39;raw&#39;, u&#39;unicode&#39;)]}\n\n\nTables\n\n\n  \n    \n      hex\n      dec\n      oct\n    \n  \n  \n    \n      0\n      0\n      0\n    \n    \n      5\n      5\n      5\n    \n    \n      A\n      10\n      12\n    \n    \n      F\n      16\n      20\n    \n    \n      F5\n      21\n      25\n    \n  \n\n\nKaTeX\n\nSome KaTeX diagrams to check in dark mode:\n\n\\[\\begin{CD}\nA @&amp;gt;a&amp;gt;&amp;gt; B \\\\\n@VbVV @AAcA \\\\\nC @= D\n\\end{CD}\\]\n\n\\[\\utilde{AB}\\]\n\nMermaid\n\n\nflowchart TB\n    c1--&amp;gt;a2\n    subgraph one\n    a1--&amp;gt;a2\n    end\n    subgraph two\n    b1--&amp;gt;b2\n    end\n    subgraph three\n    c1--&amp;gt;c2\n    end\n\n"
+} ,
+  
+  {
+    "title"    : "Tech Stuff example",
+    "category" : "",
+    "tags"     : " Mermaid, Highlight, Markdown",
+    "url"      : "/Type-on-Strap/2019/11/02/Tech-stuff-example.html",
+    "date"     : "November 2, 2019",
+    "excerpt"  : "Let’s demo some code snippet, with some mermaid diagrams.\nBecause if you put some code in your blog, you would at least make it:\n\n  Searchable\n  Good-looking\n\n\nSearch on code\n\nSearch should be working even for complicated escape symbols.\n\nsed -i &#39;...",
+  "content"  : "Let’s demo some code snippet, with some mermaid diagrams.\nBecause if you put some code in your blog, you would at least make it:\n\n  Searchable\n  Good-looking\n\n\nSearch on code\n\nSearch should be working even for complicated escape symbols.\n\nsed -i &#39;s/\\&quot;hostname\\&quot;\\:.*$/\\&quot;hostname\\&quot;\\: \\&quot;&#39;$IPADDR&#39;\\&quot;\\,/g&#39; open-falcon/agent/config/cfg.json\n\n\nOr try searching for partial of a command, like this article should be returned when looking for “find grep”\n\nfind /etc -type f -exec cat &#39;{}&#39; \\; | tr -c &#39;.[:digit:]&#39; &#39;\\n&#39; | grep &#39;^[^.][^.]*\\.[^.][^.]*\\.[^.][^.]*\\.[^.][^.]*$&#39;\n\n\nCode highlighting examples\n\nBecause you might put code in your blog post, and you want to make sure it will look good in here. Plus that the search\nfunction will still be working!\n\nJava\n\njava example\n\nimport java.util.*;\n\n@Example\npublic class Demo {\n  private static final String CONSTANT = &quot;String&quot;;\n  private Object o;\n  /**\n   * Creates a new demo.\n   * @param o The object to demonstrate.\n   */\n  public Demo(Object o) {\n    this.o = o !== null ? o : new Object();\n    String s = CONSTANT + &quot;Other example of text&quot;;\n    int i = 123 - 33 % 11;\n  }\n  public static void main(String[] args) {\n    Demo demo = new Demo();\n    System.out.println(demo.o.toString())\n  }\n}\n\n\nJavascript\n\n/**\n * Does a thing\n */\nfunction helloWorld(param1, param2) {\n    const example = `hello ${param1}`\n    var something = {\n        key: &quot;value&quot;,\n        number: 1\n    };\n\n    // Do something\n    if (2.0 % 2 == something) {\n        console.log(&#39;Hello, world!&#39;);\n    } else {\n        return null;\n    }\n\n    // TODO comment\n}\n\n\nJSON\n\n{\n  &quot;animals&quot;: {\n    &quot;tiger&quot;: {\n      &quot;name&quot;: &quot;tiger&quot;,\n      &quot;images&quot;: [&quot;🐯&quot;, &quot;🐅&quot;, &quot;⻁&quot;]\n    },\n    &quot;turtle&quot;: {\n      &quot;age&quot;: 126,\n      &quot;image&quot;: &quot;🐢&quot;\n    },\n    &quot;unicorn&quot;: {\n      &quot;doesExist&quot;: true,\n      &quot;image&quot;: &quot;🦄&quot;\n    }\n  }\n}\n\n\nPython\n\nimport os\n\n\ndef some_function(param_one=&quot;&quot;, param_two=0):\n    r&#39;&#39;&#39;A docstring&#39;&#39;&#39;\n    if param_one &amp;gt; param_two:  # interesting\n        print(&quot;Greater&quot;)\n    return (param_two - param_one + 1 + 0b10) or None\n\n\nclass SomeClass:\n    &quot;&quot;&quot; dunno what I am doing &quot;&quot;&quot;\n\n    def __init__(self):\n        pass\n\n\nYAML\n\nYou can also render some yaml, like this _config.yml:\n\n\n# Welcome to Jekyll!\n#\n# This config file is meant for settings that affect your whole blog, values\n# which you are expected to set up once and rarely edit after that. If you find\n# yourself editing this file very often, consider using Jekyll&#39;s data files\n# feature for the data you need to update frequently.\n#\n# This file, &quot;_config.yml&quot; is *NOT* reloaded automatically when you use\n# &#39;bundle exec jekyll serve&#39;. If you change this file, please restart the server process.\n\n# Site settings\n# These are used to personalize your new site. If you look in the HTML files,\n# you will see them accessed via Type on Strap, , and so on.\n# You can create any custom variable you would like, and they will be accessible\n# in the templates via .\n\n# SITE CONFIGURATION\nbaseurl: &quot;/Type-on-Strap&quot;\nurl: &quot;https://sylhare.github.io&quot;\n\n# THEME-SPECIFIC CONFIGURATION\ntitle: Type on Strap                                    # site&#39;s title\ndescription: &quot;A website with blog posts and pages&quot;      # used by search engines\navatar: assets/img/triangle.png                         # Empty for no avatar in navbar\nfavicon: assets/favicon.ico                             # Icon displayed in the tab\n\nremote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github\n\n\nMermaid\n\nDiagrams with mermaid, make sure it is enabled in the _config.yml.\nHere is a simple example:\n\n&amp;lt;!-- To generate a diagram --&amp;gt;\n&amp;lt;div class=&quot;mermaid&quot;&amp;gt;\nsequenceDiagram\n    Alice-&amp;gt;&amp;gt;John: Hello John, how are you?\n    John--&amp;gt;&amp;gt;Alice: Great!\n&amp;lt;/div&amp;gt;\n\n\nThat will be rendered into this:\n\n\n    \n    \n        \n    \n    \n\n\nYou can also go with more complex features and diagrams from the documentation:\n\n▶ More complex diagram\n\nsequenceDiagram\n    participant Alice\n    participant Bob\n    Alice-&amp;gt;&amp;gt;John: Hello John, how are you?\n    loop Healthcheck\n        John-&amp;gt;&amp;gt;John: Fight against hypochondria\n    end\n    Note right of John: Rational thoughts prevail!\n    John--&amp;gt;&amp;gt;Alice: Great!\n    John-&amp;gt;&amp;gt;Bob: How about you?\n    Bob--&amp;gt;&amp;gt;John: Jolly good!\n\n\n"
+} ,
+  
+  {
+    "title"    : "Sample post",
+    "category" : "",
+    "tags"     : " A Tag, Katex",
+    "url"      : "/Type-on-Strap/2019/06/30/sample-post.html",
+    "date"     : "June 30, 2019",
+    "excerpt"  : "Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. \nPraesent et diam eget libero egestas mattis sit amet vitae augue. Nam tinci...",
+  "content"  : "Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. \nPraesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. \n\nDonec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.\n\n\n  Consectetur adipiscing elit\n  Donec a diam lectus\n  Sed sit amet ipsum mauris\n\n\nUt turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.\n\nNunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.\n\n\n    \n    \n        \n    \n    \n\n\nUt dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.\n\n\n  Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque\n\n\nEtiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.\n\n\\[\\Theta \\ne \\Gamma\\]\n\nPhasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci1. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.\n\n\n  \n    \n\n      John Smith, A Title About Citations &amp;#8617;\n    \n  \n\n"
+} ,
+  
+  {
+    "title"    : "Color Post",
+    "category" : "",
+    "tags"     : " Test, Color",
+    "url"      : "/Type-on-Strap/example/2019/05/18/color-post.html",
+    "date"     : "May 18, 2019",
+    "excerpt"  : "What a colorful post!\n\nThis is an idea that came from xukimseven/HardCandy-Jekyll \nlooking at this cheerful and colorful theme, I wanted to enable something similar for Type-on-Strap.\n\nYou can go fork and star HardCandy-Jekyll too! 😉\n\n\n\nHow does i...",
+  "content"  : "What a colorful post!\n\nThis is an idea that came from xukimseven/HardCandy-Jekyll \nlooking at this cheerful and colorful theme, I wanted to enable something similar for Type-on-Strap.\n\nYou can go fork and star HardCandy-Jekyll too! 😉\n\n\n\nHow does it work?\n\nBasically you need to add just one thing, the color:\n\n---\nlayout: post\ntitle: Color Post\ncolor: brown\n---\n\n\nIt can either be a html color like brown (which look like red to me). Or with the rgb:\n\n---\nlayout: post\ntitle: Color Post\ncolor: rgb(165,42,42)\n---\n\n\nThe background used is lineart.png from xukimseven you can edit it in the config file. \nIf you want another one, put it in /assets/img as well.\n\n\n  ⚠️ It’s a bit hacking the css in the post.html\n\n"
+} ,
+  
+  {
+    "title"    : "Feature images",
+    "category" : "",
+    "tags"     : " Test, Image",
+    "url"      : "/Type-on-Strap/example/2018/10/29/feature-images.html",
+    "date"     : "October 29, 2018",
+    "excerpt"  : "Hopefully you will find enough information about how to set images in your blog here.\nThis is an example of a post which includes a feature image specified in the front matter of the post. \nThe feature image spans the full-width of the page, and i...",
+  "content"  : "Hopefully you will find enough information about how to set images in your blog here.\nThis is an example of a post which includes a feature image specified in the front matter of the post. \nThe feature image spans the full-width of the page, and is shown with the title on permalink pages:\n\nfeature-img: &quot;assets/img/feature-img/desk-messy.jpeg&quot;\nthumbnail: &quot;assets/img/thumbnails/feature-img/desk-messy.jpeg&quot; \n\n\nYou can also use a thumbnail, a smaller version of the same image to improve loading of the page.\nThe thumbnail will also be used when you share your article on other platform (linkedin, whatsapp, facebook, …).\n\n\n  \n    And now it is working\n  \n\n\nYou can also add images aligned in your post using the aligner include.\nMake sure to separate all of the image path from in a string separated with ,.\nIt by default look into assets/img/ so give the path from there, example:\n\n{% include aligner.html images=&quot;pexels/book-glass.jpeg,triangle.png&quot; %}\n\n\n    \n    \n        \n    \n    \n    \n        \n    \n    \n\n\nHere you have two images side by side, but you can set more and set the amount per columns \n(by specifying the number of columns or let it be automatic using &quot;auto&quot;):\n\n{% include aligner.html images=&quot;portfolio/cabin.png,portfolio/cake.png,portfolio/circus.png&quot; column=3 %}\n\n\n    \n    \n        \n    \n    \n    \n        \n    \n    \n    \n        \n    \n    \n\n\nit also works with only one images, it is made to display it smaller than normally.\nHowever you can just use the Markdown way of doing it to get the image normal sized and centered.\n\n# Markdown way (bigger)\n![Travel]({{ &quot;/assets/img/pexels/computer.jpeg&quot; | relative_url}})\n# Aligner with only One (50% of width)\n{% include aligner.html images=&quot;pexels/computer.jpeg&quot; %}\n\n\n    \n    \n        \n    \n    \n\n\n"
+} ,
+  
+  {
+    "title"    : "Bootstrap",
+    "category" : "",
+    "tags"     : " Test",
+    "url"      : "/Type-on-Strap/demo/2017/09/17/Use-Bootstrap.html",
+    "date"     : "September 17, 2017",
+    "excerpt"  : "This theme is compatible with Bootstrap if you choose to use it in your pages or posts.\nHere is a little demo with a code snippet, look at the source to see how the HTML and markdown get tangled.\n\nUse bootstrap\n\nAdd some custom Bootstrap in the cu...",
+  "content"  : "This theme is compatible with Bootstrap if you choose to use it in your pages or posts.\nHere is a little demo with a code snippet, look at the source to see how the HTML and markdown get tangled.\n\nUse bootstrap\n\nAdd some custom Bootstrap in the custom layout!\n\n\n\nSnippet example\n\nIf you are new to Bootstrap you can  always check the documentation.\nHere is an example from startbootstrap.com.\n\n\n\n\n  \n    \n      \n        \n        \n          \n            Project One\n          \n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.\n        \n      \n    \n    \n      \n        \n        \n          \n            Project Two\n          \n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.\n        \n      \n    \n    \n      \n        \n        \n          \n            Project Three\n          \n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.\n        \n      \n    \n    \n      \n        \n        \n          \n            Project Four\n          \n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.\n        \n      \n    \n    \n      \n        \n        \n          \n            Project Five\n          \n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.\n        \n      \n    \n    \n      \n        \n        \n          \n            Project Six\n          \n          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.\n        \n      \n    \n  \n  \n\n\n\n\nMix it with Markdown\n\nAll the above was custom HTML with Bootstrap.\nYou can also mix it up with some markdown.\n\nYou can use the bootstrap’s build in javascript API to control your event.\nHere is a code snippet for the documentation:\n\n$(&#39;#myModal&#39;).on(&#39;show.bs.modal&#39;, function (e) {\n    if (!data) return e.preventDefault() // stops modal from being shown\n})\n\n\nThat’s just for demo though, you would need to properly integrate your javascript in your page.\nUsually you would put any custom javascript script in the assets folder under js and reference it in your page from there.\n\nSo try it out using the bootstrap: true flag! 😉\n"
+} ,
+  
+  {
+    "title"    : "Markdown and HTML",
+    "category" : "",
+    "tags"     : " Katex, Markdown",
+    "url"      : "/Type-on-Strap/syntax/2014/11/28/markdown-and-html.html",
+    "date"     : "November 28, 2014",
+    "excerpt"  : "Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.\n\nTable of content\n\n\n\n  TOC\n  You need t...",
+  "content"  : "Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.\n\nTable of content\n\n\n\n  TOC\n  You need to put this at the beginning of the page where you want the table of content to be displayed\n\n\n* TOC\n{:toc}\n\n\nIt will then render the markdown and html titles (lines that begins with # or using the &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt; tages)\n\nTitle\n\nSubtitle\n\nTables have also been extended from Markdown:\n\n\n  \n    \n      First Header\n      Second Header\n    \n  \n  \n    \n      Content Cell\n      Content Cell\n    \n    \n      Content Cell\n      Content Cell\n    \n  \n\n\nHere’s an example of an image, which is included using Markdown:\n\n\n\nThis is another example of list:\n\n\n  list of things\n    \n      Sub list\n      of Other things\n      with numbers\n    \n  \n  And many more\n    \n      Sub sub list\n        \n          can go on …\n            \n              and on …\n                \n                  and on !\n                \n              \n            \n          \n        \n      \n      That’s it.\n    \n  \n\n\nOther subtitle\n\nHighlighting for code in Jekyll is done using Base16 or Rouge. This theme makes use of Rouge by default.\n\n// count to ten\nfor (var i = 1; i &amp;lt;= 10; i++) {\n    console.log(i);\n}\n\n// count to twenty\nvar j = 0;\nwhile (j &amp;lt; 20) {\n    j++;\n    console.log(j);\n}\n\nMath\n\nType on Strap uses KaTeX to display maths. Equations such as \\(S_n = a \\times \\frac{1-r^n}{1-r}\\) can be displayed inline.\n\nAlternatively, they can be shown on a new line:\n\n\\[f(x) = \\int \\frac{2x^2+4x+6}{x-2}\\]\n\n"
+} ,
+  
+  {
+    "title"    : "What&#39;s your title",
+    "category" : "",
+    "tags"     : " Test, Image",
+    "url"      : "/Type-on-Strap/2014/11/27/whats-your-title.html",
+    "date"     : "November 27, 2014",
+    "excerpt"  : "This is an example of a post which includes a feature image that has a\ntext, where you don’t want to redisplay the title.\nMind your image size in order for the text to be displayed where you want it to.\nThe only limit is your imagination.\n\nHere is...",
+  "content"  : "This is an example of a post which includes a feature image that has a\ntext, where you don’t want to redisplay the title.\nMind your image size in order for the text to be displayed where you want it to.\nThe only limit is your imagination.\n\nHere is how the yaml looks inside the post:\n\ntitle: What&#39;s your title\nhide_title: true\nfeature-img: assets/img/feature-img/story.jpeg\nauthor: mhagnumdw\ntags: [Test, Lorem]\n\n\nYou may wonder, why is there a title when you are not actually displaying it. \nWell that’s due to some jekyll limitation:\n\n\n  You can’t set the title to the empty string\n\n\nThe title is used elsewhere than inside the post, for example in the blog page that list this post.\nAn empty title would break those pages and possibly prevents jekyll to render your blog.\n"
+} ,
+  
+  {
+    "title"    : "The Real Lorem Ipsum",
+    "category" : "",
+    "tags"     : " Image, Color",
+    "url"      : "/Type-on-Strap/demo/2014/11/26/lorem-ipsum.html",
+    "date"     : "November 26, 2014",
+    "excerpt"  : "Lorem Ipsum\n\nfrom “de Finibus Bonorum et Malorum” written by Cicero in 45 BC.\n \nFind out more on lipsum.com. And if you like colors, check out the http color trends from w3schools.\n\nThe standard Lorem Ipsum passage (since 1500s)\n\n“Lorem ipsum dolo...",
+  "content"  : "Lorem Ipsum\n\nfrom “de Finibus Bonorum et Malorum” written by Cicero in 45 BC.\n \nFind out more on lipsum.com. And if you like colors, check out the http color trends from w3schools.\n\nThe standard Lorem Ipsum passage (since 1500s)\n\n“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”\n\nSection 1.10.32\n\nLatin\n“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”\n\nTranslation by H. Rackham (1914)\n“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”\n\nSection 1.10.33\n\nLatin\n\n“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.”\n\nTranslation by H. Rackham (1914)\n\n“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”\n\n"
+} ,
+  
+  {
+    "title"    : "Markup: Syntax Highlighting",
+    "category" : "",
+    "tags"     : " Highlight, Markdown",
+    "url"      : "/Type-on-Strap/syntax/2014/08/08/Markup-Syntax-Highlighting.html",
+    "date"     : "August 8, 2014",
+    "excerpt"  : "Syntax highlighting1 is a feature that displays source code. \nThis feature facilitates writing in a structured language such as a programming language or a markup language as it makes import things visually distinct.\n\nGFM Code Blocks\n\nGitHub Flavo...",
+  "content"  : "Syntax highlighting1 is a feature that displays source code. \nThis feature facilitates writing in a structured language such as a programming language or a markup language as it makes import things visually distinct.\n\nGFM Code Blocks\n\nGitHub Flavored Markdown fenced code blocks are supported. To modify styling and highlight colors edit /_sass/syntax.scss.\n\n#container {\n  float: left;\n  margin: 0 -240px 0 0;\n  width: 100%;\n}\n\n\n1\n2\n3\n4\n5\n6\n7\n.highlight {\n  margin: 0;\n  padding: 1em;\n  font-family: $monospace;\n  font-size: $type-size-7;\n  line-height: 1.8;\n}\n\n\n&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;\n  {% if page.previous %}\n    &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;\n  {% endif %}\n  {% if page.next %}\n    &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;\n  {% endif %}\n&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;\n\n\nmodule Jekyll\n  class TagIndex &amp;lt; Page\n    def initialize(site, base, dir, tag)\n      @site = site\n      @base = base\n      @dir = dir\n      @name = &#39;index.html&#39;\n      self.process(@name)\n      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)\n      self.data[&#39;tag&#39;] = tag\n      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;\n      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;amp;#8211;&#39;\n      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;\n      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;\n    end\n  end\nend\n\n\nCode Blocks in Lists\n\nIndentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., 1.). Usually this will mean indenting 3 spaces instead of 4.\n\n\n  Do step 1.\n  \n    Now do this:\n\n    def print_hi(name)\n  puts &quot;Hi, #{name}&quot;\nend\nprint_hi(&#39;Tom&#39;)\n#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.\n    \n  \n  Now you can do this.\n\n\nGitHub Gist Embed\n\nAn example of a Gist embed below:\n\n\n\nHere is how it looks like:\n\n   &amp;lt;script src=&quot;https://gist.github.com/sylhare/dad7ed1ef3d13614c77c4ebadf8a11c3.js&quot;&amp;gt;\n   &amp;lt;/script&amp;gt;\n\n\n\n\n  \n    \n      Michael’s Rose, Minimal Mistakes &amp;#8617;\n    \n  \n\n"
+} ,
+  
+  {
+    "title"    : "Blogging with title ",
+    "category" : "",
+    "tags"     : " Test, Image",
+    "url"      : "/Type-on-Strap/2013/10/18/blogging-with-title.html",
+    "date"     : "October 18, 2013",
+    "excerpt"  : "I am a BIG title\n\nThis is a very tiny tiny post with less than 250 letters.\n\n",
+  "content"  : "I am a BIG title\n\nThis is a very tiny tiny post with less than 250 letters.\n\n"
+} 
+  
+  ,
+  
+  {
+  
+  "title"    : "Ninja",
+  "category" : "",
+  "tags"     : " Lorem",
+  "url"      : "/Type-on-Strap/portfolio/ninja",
+  "date"     : "April 8, 2014",
+  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem ...",
+  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, \nadipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Creative",
+  "category" : "",
+  "tags"     : " Ipsum",
+  "url"      : "/Type-on-Strap/portfolio/safe",
+  "date"     : "August 16, 2014",
+  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem qu...",
+  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, \nsed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\nUse this area of the page to describe your project. \nThe icon above is part of a free icon set by Flat Icons.\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Circus",
+  "category" : "",
+  "tags"     : " Ipsum",
+  "url"      : "/Type-on-Strap/portfolio/circus",
+  "date"     : "September 1, 2014",
+  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem ...",
+  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, \nadipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Tower of Hanoi",
+  "category" : "",
+  "tags"     : " ",
+  "url"      : "/Type-on-Strap/portfolio/hanoi",
+  "date"     : "September 1, 2014",
+  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem ...",
+  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, \nadipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Tic tac toe",
+  "category" : "",
+  "tags"     : " ",
+  "url"      : "/Type-on-Strap/portfolio/tictactoe",
+  "date"     : "September 1, 2014",
+  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem qu...",
+  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, \nsed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\nUse this area of the page to describe your project. \nThe icon above is part of a free icon set by Flat Icons.\n\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Cake",
+  "category" : "",
+  "tags"     : " Lorem, Ipsum",
+  "url"      : "/Type-on-Strap/portfolio/cake",
+  "date"     : "September 27, 2015",
+  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem qu...",
+  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, \nsed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\nUse this area of the page to describe your project. \nThe icon above is part of a free icon set by Flat Icons.\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Jekyll",
+  "category" : "",
+  "tags"     : " ",
+  "url"      : "/Type-on-Strap/portfolio/jekyllblog",
+  "date"     : "May 26, 2017",
+  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem qu...",
+  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, \nadipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Lorem Ipsum",
+  "category" : "",
+  "tags"     : " ",
+  "url"      : "/Type-on-Strap/portfolio/submarine",
+  "date"     : "September 3, 2017",
+  "excerpt"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem qu...",
+  "content"  : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \ntotam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, \nsed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\nUse this area of the page to describe your project. \nThe icon above is part of a free icon set by Flat Icons.\n"
+  
+} ,
+  
+  {
+  
+  "title"    : "Github",
+  "category" : "",
+  "tags"     : " Lorem",
+  "url"      : "/Type-on-Strap/portfolio/gitlecture",
+  "date"     : "October 20, 2017",
+  "excerpt"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem ...",
+  "content"  : "\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, \neaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, \nadipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? \nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \nvel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\n\n"
+  
+} 
+  
+]

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.4
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/Type-on-Strap/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Type-on-Strap/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/Type-on-Strap/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/Type-on-Strap/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/Type-on-Strap/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/Type-on-Strap/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/Type-on-Strap/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/Type-on-Strap/assets/img/thumbnails/feature-img/circuit.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tech Stuff example | Type on Strap</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Tech Stuff example" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Let’s demo some code snippet, with some mermaid diagrams. Because if you put some code in your blog, you would at least make it: Searchable Good-looking" />
+<meta property="og:description" content="Let’s demo some code snippet, with some mermaid diagrams. Because if you put some code in your blog, you would at least make it: Searchable Good-looking" />
+<link rel="canonical" href="http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html" />
+<meta property="og:url" content="http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html" />
+<meta property="og:site_name" content="Type on Strap" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-02T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tech Stuff example" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-11-02T00:00:00+08:00","datePublished":"2019-11-02T00:00:00+08:00","description":"Let’s demo some code snippet, with some mermaid diagrams. Because if you put some code in your blog, you would at least make it: Searchable Good-looking","headline":"Tech Stuff example","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html"},"url":"http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Type on Strap" href="http://localhost:4000/Type-on-Strap/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Type-on-Strap/feed.xml" title="Type on Strap" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Tech Stuff example">
+    <meta name="twitter:description" content="Let’s demo some code snippet, with some mermaid diagrams.Because if you put some code in your blog, you would at least make it:  Searchable  Good-lookingSear...">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/Type-on-Strap/assets/img/thumbnails/feature-img/circuit.jpeg">
+    <meta name="twitter:image:alt" content="Tech Stuff example">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/Type-on-Strap/">
+			<img alt="logo img" class="avatar" src="/Type-on-Strap/assets/img/triangle.png" />
+		</a>
+        
+        <a class="site-title" aria-label="Type on Strap" href="/Type-on-Strap/">
+        Type on Strap
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About" title="About" href="/Type-on-Strap/about/">
+                     About 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Gallery" title="Gallery" href="/Type-on-Strap/gallery/">
+                     Gallery 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Portfolio" title="Portfolio" href="/Type-on-Strap/portfolio/">
+                     Portfolio 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/Type-on-Strap/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/Type-on-Strap/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+        
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Tech Stuff example " aria-label="Tech Stuff example" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article class="feature-image" >
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Tech+Stuff+example" class="title">Tech Stuff example</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      November 02, 2019
+    </p></div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <p>Let’s demo some code snippet, with some mermaid diagrams.
+Because if you put some code in your blog, you would at least make it:</p>
+<ol>
+  <li>Searchable</li>
+  <li>Good-looking</li>
+</ol>
+
+<h2 id="search-on-code">Search on code</h2>
+
+<p>Search should be working even for complicated escape symbols.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s/\"hostname\"\:.*$/\"hostname\"\: \"'</span><span class="nv">$IPADDR</span><span class="s1">'\"\,/g'</span> open-falcon/agent/config/cfg.json
+</code></pre></div></div>
+
+<p>Or try searching for partial of a command, like this article should be returned when looking for “find grep”</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find /etc <span class="nt">-type</span> f <span class="nt">-exec</span> <span class="nb">cat</span> <span class="s1">'{}'</span> <span class="se">\;</span> | <span class="nb">tr</span> <span class="nt">-c</span> <span class="s1">'.[:digit:]'</span> <span class="s1">'\n'</span> | <span class="nb">grep</span> <span class="s1">'^[^.][^.]*\.[^.][^.]*\.[^.][^.]*\.[^.][^.]*$'</span>
+</code></pre></div></div>
+
+<h2 id="code-highlighting-examples">Code highlighting examples</h2>
+
+<p>Because you might put code in your blog post, and you want to make sure it will look good in here. Plus that the search
+function will still be working!</p>
+
+<h3 id="java">Java</h3>
+
+<p>java example</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.*</span><span class="o">;</span>
+
+<span class="nd">@Example</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span> <span class="o">{</span>
+  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">String</span> <span class="no">CONSTANT</span> <span class="o">=</span> <span class="s">"String"</span><span class="o">;</span>
+  <span class="kd">private</span> <span class="nc">Object</span> <span class="n">o</span><span class="o">;</span>
+  <span class="cm">/**
+   * Creates a new demo.
+   * @param o The object to demonstrate.
+   */</span>
+  <span class="kd">public</span> <span class="nf">Demo</span><span class="o">(</span><span class="nc">Object</span> <span class="n">o</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">o</span> <span class="o">=</span> <span class="n">o</span> <span class="o">!==</span> <span class="kc">null</span> <span class="o">?</span> <span class="n">o</span> <span class="o">:</span> <span class="k">new</span> <span class="nc">Object</span><span class="o">();</span>
+    <span class="nc">String</span> <span class="n">s</span> <span class="o">=</span> <span class="no">CONSTANT</span> <span class="o">+</span> <span class="s">"Other example of text"</span><span class="o">;</span>
+    <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">123</span> <span class="o">-</span> <span class="mi">33</span> <span class="o">%</span> <span class="mi">11</span><span class="o">;</span>
+  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">Demo</span> <span class="n">demo</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Demo</span><span class="o">();</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">demo</span><span class="o">.</span><span class="na">o</span><span class="o">.</span><span class="na">toString</span><span class="o">())</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="javascript">Javascript</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+ * Does a thing
+ */</span>
+<span class="kd">function</span> <span class="nx">helloWorld</span><span class="p">(</span><span class="nx">param1</span><span class="p">,</span> <span class="nx">param2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">example</span> <span class="o">=</span> <span class="s2">`hello </span><span class="p">${</span><span class="nx">param1</span><span class="p">}</span><span class="s2">`</span>
+    <span class="kd">var</span> <span class="nx">something</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">key</span><span class="p">:</span> <span class="dl">"</span><span class="s2">value</span><span class="dl">"</span><span class="p">,</span>
+        <span class="na">number</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">};</span>
+
+    <span class="c1">// Do something</span>
+    <span class="k">if</span> <span class="p">(</span><span class="mf">2.0</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="nx">something</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello, world!</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// TODO comment</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="json">JSON</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"animals"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"tiger"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tiger"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"images"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"🐯"</span><span class="p">,</span><span class="w"> </span><span class="s2">"🐅"</span><span class="p">,</span><span class="w"> </span><span class="s2">"⻁"</span><span class="p">]</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"turtle"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">126</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"🐢"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"unicorn"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"doesExist"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"🦄"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="python">Python</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">os</span>
+
+
+<span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">param_one</span><span class="o">=</span><span class="s">""</span><span class="p">,</span> <span class="n">param_two</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="sa">r</span><span class="s">'''A docstring'''</span>
+    <span class="k">if</span> <span class="n">param_one</span> <span class="o">&gt;</span> <span class="n">param_two</span><span class="p">:</span>  <span class="c1"># interesting
+</span>        <span class="k">print</span><span class="p">(</span><span class="s">"Greater"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">param_two</span> <span class="o">-</span> <span class="n">param_one</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">+</span> <span class="mb">0b10</span><span class="p">)</span> <span class="ow">or</span> <span class="bp">None</span>
+
+
+<span class="k">class</span> <span class="nc">SomeClass</span><span class="p">:</span>
+    <span class="s">""" dunno what I am doing """</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+</code></pre></div></div>
+
+<h3 id="yaml">YAML</h3>
+
+<p>You can also render some yaml, like this <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1"># Welcome to Jekyll!</span>
+<span class="c1">#</span>
+<span class="c1"># This config file is meant for settings that affect your whole blog, values</span>
+<span class="c1"># which you are expected to set up once and rarely edit after that. If you find</span>
+<span class="c1"># yourself editing this file very often, consider using Jekyll's data files</span>
+<span class="c1"># feature for the data you need to update frequently.</span>
+<span class="c1">#</span>
+<span class="c1"># This file, "_config.yml" is *NOT* reloaded automatically when you use</span>
+<span class="c1"># 'bundle exec jekyll serve'. If you change this file, please restart the server process.</span>
+
+<span class="c1"># Site settings</span>
+<span class="c1"># These are used to personalize your new site. If you look in the HTML files,</span>
+<span class="c1"># you will see them accessed via Type on Strap, , and so on.</span>
+<span class="c1"># You can create any custom variable you would like, and they will be accessible</span>
+<span class="c1"># in the templates via .</span>
+
+<span class="c1"># SITE CONFIGURATION</span>
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/Type-on-Strap"</span>
+<span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://sylhare.github.io"</span>
+
+<span class="c1"># THEME-SPECIFIC CONFIGURATION</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Type on Strap</span>                                    <span class="c1"># site's title</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">A</span><span class="nv"> </span><span class="s">website</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">blog</span><span class="nv"> </span><span class="s">posts</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">pages"</span>      <span class="c1"># used by search engines</span>
+<span class="na">avatar</span><span class="pi">:</span> <span class="s">assets/img/triangle.png</span>                         <span class="c1"># Empty for no avatar in navbar</span>
+<span class="na">favicon</span><span class="pi">:</span> <span class="s">assets/favicon.ico</span>                             <span class="c1"># Icon displayed in the tab</span>
+
+<span class="na">remote_theme</span><span class="pi">:</span> <span class="s">sylhare/Type-on-Strap</span>                     <span class="c1"># If using as a remote_theme in github</span>
+</code></pre></div></div>
+
+<h3 id="mermaid">Mermaid</h3>
+
+<p>Diagrams with mermaid, make sure it is enabled in the <code class="language-plaintext highlighter-rouge">_config.yml</code>.
+Here is a simple example:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- To generate a diagram --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mermaid"</span><span class="nt">&gt;</span>
+sequenceDiagram
+    Alice-&gt;&gt;John: Hello John, how are you?
+    John--&gt;&gt;Alice: Great!
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>That will be rendered into this:</p>
+
+<div class="row">
+    
+    <div style="flex: 100.0%">
+        <img class="single" src="/Type-on-Strap/assets/img/mermaid-example.png" alt="mermaid-example.png" />
+    </div>
+    
+</div>
+
+<p>You can also go with more complex features and diagrams from the <a href="https://mermaid-js.github.io/mermaid/">documentation</a>:</p>
+<details>
+<summary>▶ More complex diagram</summary>
+<div class="mermaid">
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts prevail!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</div>
+</details>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html" target="_blank"
+               title=" Facebook">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Tech+Stuff+example%20http%3A%2F%2Flocalhost%3A4000%2FType-on-Strap%2F2019%2F11%2F02%2FTech-stuff-example.html"
+               target="_blank" title="">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&u=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html&quote=Tech+Stuff+example%20%7C%20Type+on+Strap&s="
+               target="_blank" title=" Tumblr">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html&media=http://localhost:4000/Type-on-Strap/assets/img/feature-img/circuit.jpeg$description=Let%E2%80%99s+demo+some+code+snippet%2C+with+some+mermaid+diagrams.%0ABecause+if+you+put+some+code+in+your+blog%2C+you+would+at+least+make+it%3A%0A%0A++Searchable%0A++Good-looking%0A%0A"
+               target="_blank" title="">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html&title=Tech+Stuff+example%20%7C%20Type+on+Strap"
+               target="_blank" title=" Reddit">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html&title=Tech+Stuff+example%20%7C%20Type+on+Strap&summary=&source=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html"
+               target="_blank" title=" LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Tech Stuff example%20%7C%20Type on Strap&body=http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html"
+               target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/Type-on-Strap/tags#Highlight">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Highlight</p>
+        </a></li>
+      
+        <li><a class="button" href="/Type-on-Strap/tags#Markdown">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Markdown</p>
+        </a></li>
+      
+        <li><a class="button" href="/Type-on-Strap/tags#Mermaid">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Mermaid</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="Dark Mode" href="/Type-on-Strap/demo/2021/04/27/dark-mode.html">
+            <p>Previous post</p>
+            Dark Mode
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Sample post" href="/Type-on-Strap/2019/06/30/sample-post.html">
+            <p>Next post</p>
+            Sample post
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+  .post-content a { color: rgb(250, 50, 50) !important; }
+  .share-buttons a { color: rgb(250, 50, 50) !important; }
+  .tag-list a:not(:hover) { color: rgb(250, 50, 50) !important; }
+  div#post-nav a { color: rgb(250, 50, 50) !important; }
+  footer a { color: rgb(250, 50, 50) !important; }
+  .site-header nav a:hover {  color: rgb(250, 50, 50) !important; }
+  a.button:hover {
+    background: rgb(250, 50, 50) !important;
+    border: 1px solid rgb(250, 50, 50) !important;
+    color: white;
+    text-decoration: none;
+    filter: none;
+  }
+  header#main {
+      background-color: rgb(250, 50, 50) !important;
+      background-image: url('/Type-on-Strap/assets/img/lineart.png');
+  }
+  
+
+  
+  header#main { background-image: url('/Type-on-Strap/assets/img/feature-img/circuit.jpeg'); }
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/Type-on-Strap/feed.xml"
+       title="Follow RSS feed"
+       target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/sylhare"
+               title="Follow on Github"
+               target="_blank"
+               rel="noopener">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>
