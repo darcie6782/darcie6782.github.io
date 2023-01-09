@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/Type-on-Strap/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Type-on-Strap/" rel="alternate" type="text/html" /><updated>2023-01-08T19:22:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/feed.xml</id><title type="html">Type on Strap</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">Dark Mode</title><link href="http://localhost:4000/Type-on-Strap/demo/2021/04/27/dark-mode.html" rel="alternate" type="text/html" title="Dark Mode" /><published>2021-04-27T00:00:00+08:00</published><updated>2021-04-27T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/demo/2021/04/27/dark-mode</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/demo/2021/04/27/dark-mode.html"><![CDATA[<p>More colors with less light. Click the <strong>half-moon</strong> most top-right button to turn the lights ON/OFF.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-09T11:56:21+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">Dark Mode</title><link href="http://localhost:4000/demo/2021/04/27/dark-mode.html" rel="alternate" type="text/html" title="Dark Mode" /><published>2021-04-27T00:00:00+08:00</published><updated>2021-04-27T00:00:00+08:00</updated><id>http://localhost:4000/demo/2021/04/27/dark-mode</id><content type="html" xml:base="http://localhost:4000/demo/2021/04/27/dark-mode.html"><![CDATA[<p>More colors with less light. Click the <strong>half-moon</strong> most top-right button to turn the lights ON/OFF.
 Here is a bit of everything, so you can check how the theme look, have fun! 👌</p>
 
 <h1 id="headers">Headers</h1>
@@ -113,7 +113,7 @@ flowchart TB
     subgraph three
     c1--&gt;c2
     end
-</div>]]></content><author><name></name></author><category term="Demo" /><category term="Katex" /><category term="Mermaid" /><category term="Markdown" /><summary type="html"><![CDATA[More colors with less light. Click the half-moon most top-right button to turn the lights ON/OFF. Here is a bit of everything, so you can check how the theme look, have fun! 👌]]></summary></entry><entry><title type="html">Tech Stuff example</title><link href="http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html" rel="alternate" type="text/html" title="Tech Stuff example" /><published>2019-11-02T00:00:00+08:00</published><updated>2019-11-02T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/2019/11/02/Tech-stuff-example.html"><![CDATA[<p>Let’s demo some code snippet, with some mermaid diagrams.
+</div>]]></content><author><name></name></author><category term="Demo" /><category term="Katex" /><category term="Mermaid" /><category term="Markdown" /><summary type="html"><![CDATA[More colors with less light. Click the half-moon most top-right button to turn the lights ON/OFF. Here is a bit of everything, so you can check how the theme look, have fun! 👌]]></summary></entry><entry><title type="html">Tech Stuff example</title><link href="http://localhost:4000/2019/11/02/Tech-stuff-example.html" rel="alternate" type="text/html" title="Tech Stuff example" /><published>2019-11-02T00:00:00+08:00</published><updated>2019-11-02T00:00:00+08:00</updated><id>http://localhost:4000/2019/11/02/Tech-stuff-example</id><content type="html" xml:base="http://localhost:4000/2019/11/02/Tech-stuff-example.html"><![CDATA[<p>Let’s demo some code snippet, with some mermaid diagrams.
 Because if you put some code in your blog, you would at least make it:</p>
 <ol>
   <li>Searchable</li>
@@ -242,7 +242,7 @@ function will still be working!</p>
 
 <span class="c1"># Site settings</span>
 <span class="c1"># These are used to personalize your new site. If you look in the HTML files,</span>
-<span class="c1"># you will see them accessed via Type on Strap, , and so on.</span>
+<span class="c1"># you will see them accessed via Darcie's blog, , and so on.</span>
 <span class="c1"># You can create any custom variable you would like, and they will be accessible</span>
 <span class="c1"># in the templates via .</span>
 
@@ -277,7 +277,7 @@ sequenceDiagram
 <div class="row">
     
     <div style="flex: 100.0%">
-        <img class="single" src="/Type-on-Strap/assets/img/mermaid-example.png" alt="mermaid-example.png" />
+        <img class="single" src="/assets/img/mermaid-example.png" alt="mermaid-example.png" />
     </div>
     
 </div>
@@ -298,7 +298,7 @@ sequenceDiagram
     John-&gt;&gt;Bob: How about you?
     Bob--&gt;&gt;John: Jolly good!
 </div>
-</details>]]></content><author><name></name></author><category term="Mermaid" /><category term="Highlight" /><category term="Markdown" /><summary type="html"><![CDATA[Let’s demo some code snippet, with some mermaid diagrams. Because if you put some code in your blog, you would at least make it: Searchable Good-looking]]></summary></entry><entry><title type="html">Sample post</title><link href="http://localhost:4000/Type-on-Strap/2019/06/30/sample-post.html" rel="alternate" type="text/html" title="Sample post" /><published>2019-06-30T00:00:00+08:00</published><updated>2019-06-30T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/2019/06/30/sample-post</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/2019/06/30/sample-post.html"><![CDATA[<p>Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
+</details>]]></content><author><name></name></author><category term="Mermaid" /><category term="Highlight" /><category term="Markdown" /><summary type="html"><![CDATA[Let’s demo some code snippet, with some mermaid diagrams. Because if you put some code in your blog, you would at least make it: Searchable Good-looking]]></summary></entry><entry><title type="html">Sample post</title><link href="http://localhost:4000/2019/06/30/sample-post.html" rel="alternate" type="text/html" title="Sample post" /><published>2019-06-30T00:00:00+08:00</published><updated>2019-06-30T00:00:00+08:00</updated><id>http://localhost:4000/2019/06/30/sample-post</id><content type="html" xml:base="http://localhost:4000/2019/06/30/sample-post.html"><![CDATA[<p>Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
 Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. 
 <!--more-->
 Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.</p>
@@ -316,7 +316,7 @@ Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
 <div class="row">
     
     <div style="flex: 100.0%">
-        <img class="single" src="/Type-on-Strap/assets/img/pexels/travel.jpeg" alt="travel.jpeg" />
+        <img class="single" src="/assets/img/pexels/travel.jpeg" alt="travel.jpeg" />
     </div>
     
 </div>
@@ -340,7 +340,7 @@ Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
       <p><span class="cit-authors">John Smith</span>, <span class="cit-title">A Title About Citations</span> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="A Tag" /><category term="Katex" /><summary type="html"><![CDATA[Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.]]></summary></entry><entry><title type="html">Color Post</title><link href="http://localhost:4000/Type-on-Strap/example/2019/05/18/color-post.html" rel="alternate" type="text/html" title="Color Post" /><published>2019-05-18T00:00:00+08:00</published><updated>2019-05-18T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/example/2019/05/18/color-post</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/example/2019/05/18/color-post.html"><![CDATA[<h1 id="what-a-colorful-post">What a colorful post!</h1>
+</div>]]></content><author><name></name></author><category term="A Tag" /><category term="Katex" /><summary type="html"><![CDATA[Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.]]></summary></entry><entry><title type="html">Color Post</title><link href="http://localhost:4000/example/2019/05/18/color-post.html" rel="alternate" type="text/html" title="Color Post" /><published>2019-05-18T00:00:00+08:00</published><updated>2019-05-18T00:00:00+08:00</updated><id>http://localhost:4000/example/2019/05/18/color-post</id><content type="html" xml:base="http://localhost:4000/example/2019/05/18/color-post.html"><![CDATA[<h1 id="what-a-colorful-post">What a colorful post!</h1>
 
 <p>This is an idea that came from <a href="https://github.com/xukimseven/HardCandy-Jekyll">xukimseven/HardCandy-Jekyll</a> 
 looking at this cheerful and colorful theme, I wanted to enable something similar for Type-on-Strap.</p>
@@ -374,7 +374,7 @@ If you want another one, put it in <code class="language-plaintext highlighter-r
 
 <blockquote>
   <p>⚠️ It’s a bit hacking the css in the <code class="language-plaintext highlighter-rouge">post.html</code></p>
-</blockquote>]]></content><author><name>Sylhare</name></author><category term="Example" /><category term="Test" /><category term="Color" /><summary type="html"><![CDATA[What a colorful post! This is an idea that came from xukimseven/HardCandy-Jekyll looking at this cheerful and colorful theme, I wanted to enable something similar for Type-on-Strap. You can go fork and star HardCandy-Jekyll too! 😉]]></summary></entry><entry><title type="html">Feature images</title><link href="http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html" rel="alternate" type="text/html" title="Feature images" /><published>2018-10-29T00:00:00+08:00</published><updated>2018-10-29T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/example/2018/10/29/feature-images.html"><![CDATA[<p>Hopefully you will find enough information about how to set images in your blog here.
+</blockquote>]]></content><author><name>Sylhare</name></author><category term="Example" /><category term="Test" /><category term="Color" /><summary type="html"><![CDATA[What a colorful post! This is an idea that came from xukimseven/HardCandy-Jekyll looking at this cheerful and colorful theme, I wanted to enable something similar for Type-on-Strap. You can go fork and star HardCandy-Jekyll too! 😉]]></summary></entry><entry><title type="html">Feature images</title><link href="http://localhost:4000/example/2018/10/29/feature-images.html" rel="alternate" type="text/html" title="Feature images" /><published>2018-10-29T00:00:00+08:00</published><updated>2018-10-29T00:00:00+08:00</updated><id>http://localhost:4000/example/2018/10/29/feature-images</id><content type="html" xml:base="http://localhost:4000/example/2018/10/29/feature-images.html"><![CDATA[<p>Hopefully you will find enough information about how to set images in your blog here.
 This is an example of a post which includes a feature image specified in the front matter of the post. 
 The feature image spans the full-width of the page, and is shown with the title on permalink pages:</p>
 
@@ -400,11 +400,11 @@ It by default look into <code class="language-plaintext highlighter-rouge">asset
 <div class="row">
     
     <div class="column">
-        <img src="/Type-on-Strap/assets/img/pexels/book-glass.jpeg" alt="book-glass.jpeg" />
+        <img src="/assets/img/pexels/book-glass.jpeg" alt="book-glass.jpeg" />
     </div>
     
     <div class="column">
-        <img src="/Type-on-Strap/assets/img/feature-img/desk-messy.jpeg" alt="desk-messy.jpeg" />
+        <img src="/assets/img/feature-img/desk-messy.jpeg" alt="desk-messy.jpeg" />
     </div>
     
 </div>
@@ -417,15 +417,15 @@ It by default look into <code class="language-plaintext highlighter-rouge">asset
 <div class="row">
     
     <div style="flex: 33.333333333333336%">
-        <img src="/Type-on-Strap/assets/img/portfolio/cabin.png" alt="cabin.png" />
+        <img src="/assets/img/portfolio/cabin.png" alt="cabin.png" />
     </div>
     
     <div style="flex: 33.333333333333336%">
-        <img src="/Type-on-Strap/assets/img/portfolio/cake.png" alt="cake.png" />
+        <img src="/assets/img/portfolio/cake.png" alt="cake.png" />
     </div>
     
     <div style="flex: 33.333333333333336%">
-        <img src="/Type-on-Strap/assets/img/portfolio/circus.png" alt="circus.png" />
+        <img src="/assets/img/portfolio/circus.png" alt="circus.png" />
     </div>
     
 </div>
@@ -441,10 +441,10 @@ However you can just use the Markdown way of doing it to get the image normal si
 <div class="row">
     
     <div class="column">
-        <img class="single" src="/Type-on-Strap/assets/img/pexels/computer.jpeg" alt="computer.jpeg" />
+        <img class="single" src="/assets/img/pexels/computer.jpeg" alt="computer.jpeg" />
     </div>
     
-</div>]]></content><author><name></name></author><category term="Example" /><category term="Test" /><category term="Image" /><summary type="html"><![CDATA[Hopefully you will find enough information about how to set images in your blog here. This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages:]]></summary></entry><entry><title type="html">Bootstrap</title><link href="http://localhost:4000/Type-on-Strap/demo/2017/09/17/Use-Bootstrap.html" rel="alternate" type="text/html" title="Bootstrap" /><published>2017-09-17T00:00:00+08:00</published><updated>2017-09-17T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/demo/2017/09/17/Use-Bootstrap</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/demo/2017/09/17/Use-Bootstrap.html"><![CDATA[<p>This theme is compatible with Bootstrap if you choose to use it in your pages or posts.
+</div>]]></content><author><name></name></author><category term="Example" /><category term="Test" /><category term="Image" /><summary type="html"><![CDATA[Hopefully you will find enough information about how to set images in your blog here. This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages:]]></summary></entry><entry><title type="html">Bootstrap</title><link href="http://localhost:4000/demo/2017/09/17/Use-Bootstrap.html" rel="alternate" type="text/html" title="Bootstrap" /><published>2017-09-17T00:00:00+08:00</published><updated>2017-09-17T00:00:00+08:00</updated><id>http://localhost:4000/demo/2017/09/17/Use-Bootstrap</id><content type="html" xml:base="http://localhost:4000/demo/2017/09/17/Use-Bootstrap.html"><![CDATA[<p>This theme is compatible with Bootstrap if you choose to use it in your pages or posts.
 Here is a little demo with a code snippet, look at the source to see how the HTML and markdown get tangled.</p>
 
 <h2 id="use-bootstrap">Use bootstrap</h2>
@@ -550,7 +550,7 @@ Here is a code snippet for the <a href="https://getbootstrap.com/docs/4.0/gettin
 <p>That’s just for demo though, you would need to properly integrate your javascript in your page.
 Usually you would put any custom javascript script in the <em>assets</em> folder under js and reference it in your page from there.</p>
 
-<p>So try it out using the <code class="language-plaintext highlighter-rouge">bootstrap: true</code> flag! 😉</p>]]></content><author><name></name></author><category term="Demo" /><category term="Test" /><summary type="html"><![CDATA[This theme is compatible with Bootstrap if you choose to use it in your pages or posts. Here is a little demo with a code snippet, look at the source to see how the HTML and markdown get tangled.]]></summary></entry><entry><title type="html">Markdown and HTML</title><link href="http://localhost:4000/Type-on-Strap/syntax/2014/11/28/markdown-and-html.html" rel="alternate" type="text/html" title="Markdown and HTML" /><published>2014-11-28T00:00:00+08:00</published><updated>2014-11-28T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/syntax/2014/11/28/markdown-and-html</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/syntax/2014/11/28/markdown-and-html.html"><![CDATA[<p>Jekyll supports the use of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.</p>
+<p>So try it out using the <code class="language-plaintext highlighter-rouge">bootstrap: true</code> flag! 😉</p>]]></content><author><name></name></author><category term="Demo" /><category term="Test" /><summary type="html"><![CDATA[This theme is compatible with Bootstrap if you choose to use it in your pages or posts. Here is a little demo with a code snippet, look at the source to see how the HTML and markdown get tangled.]]></summary></entry><entry><title type="html">Markdown and HTML</title><link href="http://localhost:4000/syntax/2014/11/28/markdown-and-html.html" rel="alternate" type="text/html" title="Markdown and HTML" /><published>2014-11-28T00:00:00+08:00</published><updated>2014-11-28T00:00:00+08:00</updated><id>http://localhost:4000/syntax/2014/11/28/markdown-and-html</id><content type="html" xml:base="http://localhost:4000/syntax/2014/11/28/markdown-and-html.html"><![CDATA[<p>Jekyll supports the use of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.</p>
 
 <h2 id="table-of-content">Table of content</h2>
 
@@ -593,7 +593,7 @@ Usually you would put any custom javascript script in the <em>assets</em> folder
 
 <p>Here’s an example of an image, which is included using Markdown:</p>
 
-<p><img src="/Type-on-Strap/assets/img/pexels/book-glass.jpeg" alt="Image of a glass on a book" /></p>
+<p><img src="/assets/img/pexels/book-glass.jpeg" alt="Image of a glass on a book" /></p>
 
 <p>This is another example of list:</p>
 
@@ -647,7 +647,7 @@ Usually you would put any custom javascript script in the <em>assets</em> folder
 
 <p>Alternatively, they can be shown on a new line:</p>
 
-\[f(x) = \int \frac{2x^2+4x+6}{x-2}\]]]></content><author><name>Rohan Chandra</name></author><category term="Syntax" /><category term="Katex" /><category term="Markdown" /><summary type="html"><![CDATA[Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.]]></summary></entry><entry><title type="html">What’s your title</title><link href="http://localhost:4000/Type-on-Strap/2014/11/27/whats-your-title.html" rel="alternate" type="text/html" title="What’s your title" /><published>2014-11-27T00:00:00+08:00</published><updated>2014-11-27T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/2014/11/27/whats-your-title</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/2014/11/27/whats-your-title.html"><![CDATA[<p>This is an example of a post which includes a feature image that has a
+\[f(x) = \int \frac{2x^2+4x+6}{x-2}\]]]></content><author><name>Rohan Chandra</name></author><category term="Syntax" /><category term="Katex" /><category term="Markdown" /><summary type="html"><![CDATA[Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.]]></summary></entry><entry><title type="html">What’s your title</title><link href="http://localhost:4000/2014/11/27/whats-your-title.html" rel="alternate" type="text/html" title="What’s your title" /><published>2014-11-27T00:00:00+08:00</published><updated>2014-11-27T00:00:00+08:00</updated><id>http://localhost:4000/2014/11/27/whats-your-title</id><content type="html" xml:base="http://localhost:4000/2014/11/27/whats-your-title.html"><![CDATA[<p>This is an example of a post which includes a feature image that has a
 text, where you don’t want to redisplay the title.
 Mind your image size in order for the text to be displayed where you want it to.
 The only limit is your imagination.</p>
@@ -669,7 +669,7 @@ Well that’s due to some jekyll limitation:</p>
 </blockquote>
 
 <p>The title is used elsewhere than inside the post, for example in the blog page that list this post.
-An empty title would break those pages and possibly prevents jekyll to render your blog.</p>]]></content><author><name>Mhagnumdw</name></author><category term="Test" /><category term="Image" /><summary type="html"><![CDATA[This is an example of a post which includes a feature image that has a text, where you don’t want to redisplay the title. Mind your image size in order for the text to be displayed where you want it to. The only limit is your imagination.]]></summary></entry><entry><title type="html">The Real Lorem Ipsum</title><link href="http://localhost:4000/Type-on-Strap/demo/2014/11/26/lorem-ipsum.html" rel="alternate" type="text/html" title="The Real Lorem Ipsum" /><published>2014-11-26T00:00:00+08:00</published><updated>2014-11-26T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/demo/2014/11/26/lorem-ipsum</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/demo/2014/11/26/lorem-ipsum.html"><![CDATA[<h2 id="lorem-ipsum">Lorem Ipsum</h2>
+An empty title would break those pages and possibly prevents jekyll to render your blog.</p>]]></content><author><name>Mhagnumdw</name></author><category term="Test" /><category term="Image" /><summary type="html"><![CDATA[This is an example of a post which includes a feature image that has a text, where you don’t want to redisplay the title. Mind your image size in order for the text to be displayed where you want it to. The only limit is your imagination.]]></summary></entry><entry><title type="html">The Real Lorem Ipsum</title><link href="http://localhost:4000/demo/2014/11/26/lorem-ipsum.html" rel="alternate" type="text/html" title="The Real Lorem Ipsum" /><published>2014-11-26T00:00:00+08:00</published><updated>2014-11-26T00:00:00+08:00</updated><id>http://localhost:4000/demo/2014/11/26/lorem-ipsum</id><content type="html" xml:base="http://localhost:4000/demo/2014/11/26/lorem-ipsum.html"><![CDATA[<h2 id="lorem-ipsum">Lorem Ipsum</h2>
 
 <p>from <em>“de Finibus Bonorum et Malorum”</em> written by Cicero in 45 BC.
  <!--more-->
@@ -695,7 +695,7 @@ Find out more on <a href="https://www.lipsum.com/">lipsum.com</a>. And if you li
 
 <h4 id="translation-by-h-rackham-1914-1">Translation by H. Rackham (1914)</h4>
 
-<p>“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”</p>]]></content><author><name></name></author><category term="Demo" /><category term="Image" /><category term="Color" /><summary type="html"><![CDATA[Lorem Ipsum from “de Finibus Bonorum et Malorum” written by Cicero in 45 BC.]]></summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="http://localhost:4000/Type-on-Strap/syntax/2014/08/08/Markup-Syntax-Highlighting.html" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2014-08-08T00:00:00+08:00</published><updated>2014-08-08T00:00:00+08:00</updated><id>http://localhost:4000/Type-on-Strap/syntax/2014/08/08/Markup-Syntax-Highlighting</id><content type="html" xml:base="http://localhost:4000/Type-on-Strap/syntax/2014/08/08/Markup-Syntax-Highlighting.html"><![CDATA[<p>Syntax highlighting<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> is a feature that displays source code. 
+<p>“On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.”</p>]]></content><author><name></name></author><category term="Demo" /><category term="Image" /><category term="Color" /><summary type="html"><![CDATA[Lorem Ipsum from “de Finibus Bonorum et Malorum” written by Cicero in 45 BC.]]></summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="http://localhost:4000/syntax/2014/08/08/Markup-Syntax-Highlighting.html" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2014-08-08T00:00:00+08:00</published><updated>2014-08-08T00:00:00+08:00</updated><id>http://localhost:4000/syntax/2014/08/08/Markup-Syntax-Highlighting</id><content type="html" xml:base="http://localhost:4000/syntax/2014/08/08/Markup-Syntax-Highlighting.html"><![CDATA[<p>Syntax highlighting<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> is a feature that displays source code. 
 This feature facilitates writing in a structured language such as a programming language or a markup language as it makes import things visually distinct.</p>
 
 <h3 id="gfm-code-blocks">GFM Code Blocks</h3>
