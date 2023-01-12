@@ -1,45 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-12T16:13:58+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">DSE test countdown</title><link href="http://localhost:4000/demo/2023/01/12/Count-down.html" rel="alternate" type="text/html" title="DSE test countdown" /><published>2023-01-12T00:00:00+08:00</published><updated>2023-01-12T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/12/Count-down</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/12/Count-down.html"><![CDATA[<h2 id="first-des-test">First DES test</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-12T18:25:22+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">DSE test countdown</title><link href="http://localhost:4000/demo/2023/01/12/Count-down.html" rel="alternate" type="text/html" title="DSE test countdown" /><published>2023-01-12T00:00:00+08:00</published><updated>2023-01-12T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/12/Count-down</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/12/Count-down.html"><![CDATA[<html>
+    <body>
 
-<html> 
-<head> 
-<meta charset="utf-8" /> 
-
-</head> 
-
-<body> 
-
-<div id="CountMsg" class="HotDate"> 
-<span id="t_d">00天</span> 
-<span id="t_h">00时</span> 
-<span id="t_m">00分</span> 
-<span id="t_s">00秒</span> 
-</div> 
-<script type="text/javascript"> 
-function getRTime(){ 
-var EndTime= new Date('2023/4/21 08:30:00'); //截止时间 
-var NowTime = new Date(); 
-var t =EndTime.getTime() - NowTime.getTime(); 
-/*var d=Math.floor(t/1000/60/60/24); 
-t-=d*(1000*60*60*24); 
-var h=Math.floor(t/1000/60/60); 
-t-=h*60*60*1000; 
-var m=Math.floor(t/1000/60); 
-t-=m*60*1000; 
-var s=Math.floor(t/1000);*/ 
-
-var d=Math.floor(t/1000/60/60/24); 
-var h=Math.floor(t/1000/60/60%24); 
-var m=Math.floor(t/1000/60%60); 
-var s=Math.floor(t/1000%60); 
-
-document.getElementById("t_d").innerHTML = d + "天"; 
-document.getElementById("t_h").innerHTML = h + "时"; 
-document.getElementById("t_m").innerHTML = m + "分"; 
-document.getElementById("t_s").innerHTML = s + "秒"; 
-} 
-setInterval(getRTime,1000); 
-</script> 
-</body> 
-</html>]]></content><author><name></name></author><category term="Demo" /><category term="record" /><summary type="html"><![CDATA[First DES test]]></summary></entry><entry><title type="html">Establish blog</title><link href="http://localhost:4000/demo/2023/01/08/Establish-blog.html" rel="alternate" type="text/html" title="Establish blog" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/08/Establish-blog</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/08/Establish-blog.html"><![CDATA[<h1 id="establish-blog">Establish blog</h1>
+    <script type="text/javascript">
+        function changeTime(date, name) {
+            var c = new Date(date).getTime();
+            var delay = setInterval(function(){
+                var n = new Date().getTime();
+                var r = c - n;
+                var d = Math.floor(r / (1000 * 60 * 60 * 24));
+                var h = Math.floor((r % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var m = Math.floor((r % (1000 * 60 * 60)) / (1000 * 60));
+                var s = Math.floor((r % (1000 * 60)) / 1000);
+                document.getElementById(name).innerHTML = d + "D " + h + "H " + m + "M " + s + "S"
+            },1000)
+        }
+        changeTime("Apr 21, 2023 08:30:00","en12");
+        changeTime("Apr 22, 2023 09:15:00","en3");
+        changeTime("Apr 24, 2023 08:30:00","math");
+        changeTime("Apr 25, 2023 08:30:00","zh12");
+        changeTime("Apr 26, 2023 09:15:00","zh3");
+        changeTime("Apr 27, 2023 08:30:00","ts");
+        changeTime("May 10, 2023 08:30:00","zs");
+        changeTime("May 10, 2023 08:30:00","ss");
+        
+    </script>
+    <h2>English Language 1,2</h2>
+    <p>21st April 2023</p>
+    <p id="en12">0D 0H 0M 0S</p>
+    <h2>English Language 3 (Listening and Integrated Skills)</h2>
+    <p>22rd April 2023
+    <p id="en3">0D 0H 0M 0S</p>
+    <h2>Mathematics Compulsory Part 1,2</h2>
+    <p>24th April 2023</p>
+    <p id="math">0D 0H 0M 0S</p>
+    <h2>Chinese Language 1,2</h2>
+    <p>25th April 2023</p>
+    <p id="zh12">0D 0H 0M 0S</p>
+    <h2>Chinese Language 3 (Listening and Integrated Skills)</h2>
+    <p>26th April 2023</p>
+    <p id="zh3">0D 0H 0M 0S</p>
+    <h2>Liberal Studies 1,2</h2>
+    <p>27th April 2023</p>
+    <p id="ts">0D 0H 0M 0S</p>
+    <h2>Chinese History 1,2</h2>
+    <p>10th May 2023</p>
+    <p id="zs">0D 0H 0M 0S</p>
+    <h2>History 1,2</h2>
+    <p>15th May 2023</p>
+    <p id="ss">0D 0H 0M 0S</p>
+</p></body></html>]]></content><author><name></name></author><category term="Demo" /><category term="record" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Establish blog</title><link href="http://localhost:4000/demo/2023/01/08/Establish-blog.html" rel="alternate" type="text/html" title="Establish blog" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/08/Establish-blog</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/08/Establish-blog.html"><![CDATA[<h1 id="establish-blog">Establish blog</h1>
 
 <p>This website is established in 8 Janauary 2023.</p>]]></content><author><name></name></author><category term="Demo" /><category term="record" /><summary type="html"><![CDATA[Establish blog]]></summary></entry></feed>
