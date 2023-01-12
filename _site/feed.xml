@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-12T18:25:22+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">DSE test countdown</title><link href="http://localhost:4000/demo/2023/01/12/Count-down.html" rel="alternate" type="text/html" title="DSE test countdown" /><published>2023-01-12T00:00:00+08:00</published><updated>2023-01-12T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/12/Count-down</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/12/Count-down.html"><![CDATA[<html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-12T18:37:57+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">DSE test countdown</title><link href="http://localhost:4000/demo/2023/01/12/Count-down.html" rel="alternate" type="text/html" title="DSE test countdown" /><published>2023-01-12T00:00:00+08:00</published><updated>2023-01-12T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/12/Count-down</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/12/Count-down.html"><![CDATA[<html>
     <body>
 
     <script type="text/javascript">
@@ -21,7 +21,7 @@
         changeTime("Apr 26, 2023 09:15:00","zh3");
         changeTime("Apr 27, 2023 08:30:00","ts");
         changeTime("May 10, 2023 08:30:00","zs");
-        changeTime("May 10, 2023 08:30:00","ss");
+        changeTime("May 15, 2023 08:30:00","ss");
         
     </script>
     <h2>English Language 1,2</h2>
@@ -48,6 +48,6 @@
     <h2>History 1,2</h2>
     <p>15th May 2023</p>
     <p id="ss">0D 0H 0M 0S</p>
-</p></body></html>]]></content><author><name></name></author><category term="Demo" /><category term="record" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Establish blog</title><link href="http://localhost:4000/demo/2023/01/08/Establish-blog.html" rel="alternate" type="text/html" title="Establish blog" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/08/Establish-blog</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/08/Establish-blog.html"><![CDATA[<h1 id="establish-blog">Establish blog</h1>
+</p></body></html>]]></content><author><name></name></author><category term="Demo" /><category term="countdown" /><category term="dse" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Establish blog</title><link href="http://localhost:4000/demo/2023/01/08/Establish-blog.html" rel="alternate" type="text/html" title="Establish blog" /><published>2023-01-08T00:00:00+08:00</published><updated>2023-01-08T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/08/Establish-blog</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/08/Establish-blog.html"><![CDATA[<h1 id="establish-blog">Establish blog</h1>
 
 <p>This website is established in 8 Janauary 2023.</p>]]></content><author><name></name></author><category term="Demo" /><category term="record" /><summary type="html"><![CDATA[Establish blog]]></summary></entry></feed>

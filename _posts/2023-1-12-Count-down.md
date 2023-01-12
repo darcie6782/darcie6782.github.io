@@ -28,7 +28,7 @@ categories: Demo
         changeTime("Apr 26, 2023 09:15:00","zh3");
         changeTime("Apr 27, 2023 08:30:00","ts");
         changeTime("May 10, 2023 08:30:00","zs");
-        changeTime("May 10, 2023 08:30:00","ss");
+        changeTime("May 15, 2023 08:30:00","ss");
         
     </script>
     <h2>English Language 1,2</h2>
