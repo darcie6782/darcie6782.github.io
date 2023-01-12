@@ -13,7 +13,7 @@ header_text: <code>A website for Darcie</code>  # Change Blog header text
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
-  Powered by StarkLin
+  Supported by StarkLin
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
