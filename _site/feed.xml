@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-22T16:28:16+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">Happy Luna New Year</title><link href="http://localhost:4000/2023/01/21/Luna-New-Year.html" rel="alternate" type="text/html" title="Happy Luna New Year" /><published>2023-01-21T00:00:00+08:00</published><updated>2023-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2023/01/21/Luna-New-Year</id><content type="html" xml:base="http://localhost:4000/2023/01/21/Luna-New-Year.html"><![CDATA[<html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-22T16:30:29+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">Happy Luna New Year</title><link href="http://localhost:4000/2023/01/21/Luna-New-Year.html" rel="alternate" type="text/html" title="Happy Luna New Year" /><published>2023-01-21T00:00:00+08:00</published><updated>2023-01-21T00:00:00+08:00</updated><id>http://localhost:4000/2023/01/21/Luna-New-Year</id><content type="html" xml:base="http://localhost:4000/2023/01/21/Luna-New-Year.html"><![CDATA[<html>
 <body>
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
  <g id="Layer_1">
-  <title>Layer 1</title>
+  <title></title>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="99.99998" x2="183.33332" y1="209.52379" x1="22.61904" stroke="#000000" fill="none" />
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="101.19046" x2="180.95237" y1="17.85712" x1="370.23808" stroke="#000000" fill="none" />
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="299.99995" x2="164.03509" y1="203.50873" x1="21.05265" stroke="#000000" fill="none" />
@@ -52,7 +52,7 @@
  </g>
 </svg>
 </body>
-</html>]]></content><author><name></name></author><category term="newyear" /><category term="holiday" /><summary type="html"><![CDATA[Layer 1]]></summary></entry><entry><title type="html">DSE test countdown</title><link href="http://localhost:4000/demo/2023/01/12/Count-down.html" rel="alternate" type="text/html" title="DSE test countdown" /><published>2023-01-12T00:00:00+08:00</published><updated>2023-01-12T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/12/Count-down</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/12/Count-down.html"><![CDATA[<html>
+</html>]]></content><author><name></name></author><category term="newyear" /><category term="holiday" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DSE test countdown</title><link href="http://localhost:4000/demo/2023/01/12/Count-down.html" rel="alternate" type="text/html" title="DSE test countdown" /><published>2023-01-12T00:00:00+08:00</published><updated>2023-01-12T00:00:00+08:00</updated><id>http://localhost:4000/demo/2023/01/12/Count-down</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/12/Count-down.html"><![CDATA[<html>
     <body>
 
     <script type="text/javascript">

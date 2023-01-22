@@ -6,9 +6,9 @@ tags: [newyear,holiday]
 
 <html>
 <body>
-<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
  <g id="Layer_1">
-  <title>Layer 1</title>
+  <title></title>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="99.99998" x2="183.33332" y1="209.52379" x1="22.61904" stroke="#000000" fill="none"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="101.19046" x2="180.95237" y1="17.85712" x1="370.23808" stroke="#000000" fill="none"/>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="299.99995" x2="164.03509" y1="203.50873" x1="21.05265" stroke="#000000" fill="none"/>
