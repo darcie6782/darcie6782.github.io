@@ -9,11 +9,10 @@ avatar: assets/img/triangle.png                         # Empty for no avatar in
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: <code>A website for Darcie</code>  # Change Blog header text
+header_text: <code>Hello</code>  # Change Blog header text
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
-footer_text: >
-  Supported by StarkLin
+footer_text: > 
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
