@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.4
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://localhost:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://localhost:4000/assets/img/header/triangular.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Memory game | Darcie’s blog</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Memory game" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Memory Game" />
+<meta property="og:description" content="Memory Game" />
+<link rel="canonical" href="http://localhost:4000/2023/01/24/Memory-Game.html" />
+<meta property="og:url" content="http://localhost:4000/2023/01/24/Memory-Game.html" />
+<meta property="og:site_name" content="Darcie’s blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-24T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Memory game" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-24T00:00:00+08:00","datePublished":"2023-01-24T00:00:00+08:00","description":"Memory Game","headline":"Memory game","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2023/01/24/Memory-Game.html"},"url":"http://localhost:4000/2023/01/24/Memory-Game.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Darcie's blog" href="http://localhost:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Darcie&apos;s blog" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Memory game">
+    <meta name="twitter:description" content="        Memory Game                                                                                                Memory Game                               ...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://localhost:4000/assets/img/header/triangular.jpeg">
+    <meta name="twitter:image:alt" content="Memory game">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/triangle.png" />
+		</a>
+        
+        <a class="site-title" aria-label="Darcie's blog" href="/">
+        Darcie's blog
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About" title="About" href="/about/">
+                     About 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Gallery" title="Gallery" href="/gallery/">
+                     Gallery 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+        
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="Memory game " aria-label="Memory game" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="Memory+game" class="title">Memory game</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      January 24, 2023
+    </p></div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Memory Game</title>
+    <style>
+        body {
+            background-color: #506972;
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0 20px;
+        }
+        .container-inner {
+            width: 100%;
+            max-width: 1024px;
+        }
+        .vertical-space-manager {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+        .game-player {
+            max-width: 100%;
+            padding: 1rem;
+            background-color: #F0F0F1;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .game-title {
+            text-align: center;
+        }
+        #game-description {
+            text-align: center;
+        }
+        #start-button-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .start-button-container-disabled {
+            opacity: 0;
+            pointer-events: none;
+        }
+        #start-button {
+            color: white;
+            background-color: #11D66D;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        #start-button:hover {
+            opacity: 0.7;
+        }
+        #current-level-info {
+            margin-top: 1rem;
+        }
+        #current-level-number-display {
+            text-align: center;
+            margin-bottom: 2rem;
+            transition: all 0.2s;
+            opacity: 0;
+        }
+        .current-level-number-display-enabled {
+            opacity: 1 !important;
+        }
+        #current-level-guesses-message {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        #current-level-guesses-display {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .current-correct-guess-panel {
+            flex: 1;
+            aspect-ratio: 1;
+            max-width: 10%;
+            transition: all 0.2s;
+            border-radius: 8px;
+        }
+        #random-panel-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        #random-panel {
+            width: 100%;
+            max-width: 200px;
+            aspect-ratio: 1;
+            border-radius: 16px;
+            /*transition: all 0.2s;*/
+        }
+        .random-panel-none {
+            display: none;
+        }
+        #controls {
+            margin-top: 1rem;
+            transition: all 0.2s;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .controls-enabled {
+            opacity: 1 !important;
+            pointer-events: all !important;
+        }
+        #controls-instructions {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        #controls-btns-row {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+        .controls-btn {
+            flex: 1;
+            aspect-ratio: 1;
+            border-radius: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .controls-btn:hover {
+            opacity: 0.7;
+        }
+        #game-over-container {
+            margin-top: 1rem;
+            display: none;
+        }
+        .game-over-container-visible {
+            display: block !important;
+        }
+        #game-over-message {
+            text-align: center;
+            color: #FF4238;
+        }
+        #game-over-correct-solution {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .bg-red {
+            background-color: #FF4238;
+        }
+        .bg-yellow {
+            background-color: #FFEE3F;
+        }
+        .bg-green {
+            background-color: #11D66D;
+        }
+        .bg-purple {
+            background-color: #7859E6;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+    <div class="container">
+        <div class="container-inner">
+            <div class="vertical-space-manager">
+                <div>
+                </div>
+                <div class="game-player">
+                    <h1 class="game-title">Memory Game</h1>
+                    <h5 id="game-description">
+                        Click "Start Game" and try to remember the colors you see!<br /><br />
+                        Each level is randomized from the prvevious &amp; gets faster &amp; faster!
+                    </h5>
+                    <div id="start-button-container">
+                        <button id="start-button">
+                            Start Game
+                        </button>
+                    </div>
+                    <div id="current-level-info">
+                        <div>
+                            <h3 id="current-level-number-display"></h3>
+                        </div>
+                        <div>
+                            <h3 id="current-level-guesses-message"></h3>
+                            <div id="current-level-guesses-display">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="random-panel-container">
+                        <div id="random-panel">
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <div>
+                            <h3 id="controls-instructions">
+                                Click the colors in the order they appeared
+                            </h3>
+                        </div>
+                        <div id="controls-btns-row">
+                            <div id="controls-btn-red" class="controls-btn bg-red">
+                            </div>
+                            <div id="controls-btn-yellow" class="controls-btn bg-yellow">
+                            </div>
+                            <div id="controls-btn-green" class="controls-btn bg-green">
+                            </div>
+                            <div id="controls-btn-purple" class="controls-btn bg-purple">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="game-over-container">
+                        <h2 id="game-over-message">
+                            Game Over!<br /><br />
+                            Click "Start Game" to play again.<br /><br />
+                            Correct solution below:
+                        </h2>
+                        <div id="game-over-correct-solution">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    /* I wrote this all during a flight, so don't critique it too hard! */
+
+    console.log("Not trying to cheat, are you?");
+
+    let levelFlashingInProgress = false;
+    let level = 0;
+    const baseRounds = 4;
+    const baseTime = 1000;
+    const levelSpeedMod = 65;
+
+    let currentBg;
+    let currentLevelBgs = [];
+    let currentLevelGuesses = [];
+    let currentIteration = 0;
+
+    const startButtonContainer = document.getElementById("start-button-container");
+    const startButton = document.getElementById("start-button");
+    const currentLevelNumberDisplay = document.getElementById("current-level-number-display");
+    const currentLevelGuessesMessage = document.getElementById("current-level-guesses-message");
+    const currentLevelGuessesDisplay = document.getElementById("current-level-guesses-display");
+    const randomPanel = document.getElementById("random-panel");
+    const controls = document.getElementById("controls");
+    const gameOverContainer = document.getElementById("game-over-container");
+    const gameOverCorrectSolution = document.getElementById("game-over-correct-solution");
+
+    const controlsBtnRed = document.getElementById("controls-btn-red");
+    const controlsBtnYellow = document.getElementById("controls-btn-yellow");
+    const controlsBtnGreen = document.getElementById("controls-btn-green");
+    const controlsBtnPurple = document.getElementById("controls-btn-purple");
+
+    startButton.addEventListener("click", startLevel);
+
+    controlsBtnRed.addEventListener("click", guessColor("bg-red"));
+    controlsBtnYellow.addEventListener("click", guessColor("bg-yellow"));
+    controlsBtnGreen.addEventListener("click", guessColor("bg-green"));
+    controlsBtnPurple.addEventListener("click", guessColor("bg-purple"));
+
+    function getRandomNumberInclusive(lower, upper) {
+        return Math.floor(Math.random() * (upper + 1) - lower);
+    }
+
+    // Map the numbers to classes for the random panel
+    function getClassNameFromNumber(number) {
+        switch(number) {
+            case 0:
+                return "bg-red";
+            case 1:
+                return "bg-yellow";
+            case 2:
+                return "bg-green";
+            case 3:
+            default:
+                return "bg-purple";
+        }
+    }
+
+    function startLevel() {
+        if (levelFlashingInProgress) {
+            return;
+        }
+
+        levelFlashingInProgress = true;
+        // clear the correct guesses section
+        currentLevelGuessesMessage.innerText = "";
+        currentLevelGuessesDisplay.innerHTML = "";
+        startButtonContainer.classList.add("start-button-container-disabled");
+        gameOverContainer.classList.remove("game-over-container-visible");
+        randomPanel.classList.remove("random-panel-none");
+        currentLevelNumberDisplay.innerText = `Current Level: ${level + 1}`;
+        currentLevelNumberDisplay.classList.add("current-level-number-display-enabled")
+
+        const intervalSpeed = baseTime - (level * levelSpeedMod * (((level * 100) / 1000) + 1));
+
+        let workingClassName;
+
+        // Start the level, or "flashing"
+        const flashingInterval =  setInterval(() => {
+            if (workingClassName) {
+                randomPanel.classList.remove(workingClassName); // Remove the previous color of the flashing div
+            }
+
+            workingClassName = getNewClass(); // generate a new class
+            currentBg = workingClassName; // save the new class for reference
+            currentLevelBgs.push(currentBg);
+            randomPanel.classList.add(workingClassName); // add the new class to the flashing div
+            currentIteration++;
+
+            if (currentIteration === level + baseRounds) {
+                clearInterval(flashingInterval);
+                setTimeout(() => {
+                    levelFlashingInProgress = false;
+                    preparePlayingFieldForLevel();
+                }, intervalSpeed);
+            }
+        }, intervalSpeed); // increments a little bit faster each level
+    }
+
+    function preparePlayingFieldForLevel() {
+        // console.log(currentLevelBgs);
+        randomPanel.classList.forEach(c => randomPanel.classList.remove(c));
+        randomPanel.classList.add("random-panel-none");
+        controls.classList.add("controls-enabled");
+        currentLevelGuessesMessage.innerText = getCurrentCorrectGuessesMessage();
+    }
+
+    function guessColor(color) {
+        return () => {
+            if (color === currentLevelBgs[currentLevelGuesses.length]) {
+                currentLevelGuesses.push(color);
+                currentLevelGuessesMessage.innerText = getCurrentCorrectGuessesMessage();
+                getNewCurrentCorrectGuessesDisplay(color, currentLevelGuessesDisplay);
+
+                if (currentLevelGuesses.length === currentLevelBgs.length) {
+                    // clear the controls
+                    controls.classList.remove("controls-enabled");
+
+                    setTimeout(() => {
+                        // reset a whole ton of variables
+                        currentBg = null;
+                        currentLevelBgs = [];
+                        currentLevelGuesses = [];
+                        currentIteration = 0;
+
+                        // clear the correct guesses section
+                        currentLevelGuessesMessage.innerText = "";
+                        currentLevelGuessesDisplay.innerHTML = "";
+
+                        // increment the level
+                        level++;
+
+                        // begin again
+                        startLevel();
+                    }, 1000);
+                }
+            } else {
+                console.log("you lose! (But there's really no winning, is there?)");
+                gameOverContainer.classList.add("game-over-container-visible");
+                randomPanel.classList.add("random-panel-none");
+                currentLevelBgs.forEach(c => getNewCurrentCorrectGuessesDisplay(c, gameOverCorrectSolution));
+                controls.classList.remove("controls-enabled");
+                startButtonContainer.classList.remove("start-button-container-disabled");
+                currentBg = null;
+                currentLevelBgs = [];
+                currentLevelGuesses = [];
+                currentIteration = 0;
+                level = 0;
+            }
+        }
+    }
+
+    function getCurrentCorrectGuessesMessage() {
+        return `Current Correct Guesses: ${currentLevelGuesses.length}/${currentLevelBgs.length}`;
+    }
+
+    function getNewCurrentCorrectGuessesDisplay(className, parent) {
+        const newPanel = document.createElement("div");
+        newPanel.classList.add("current-correct-guess-panel");
+        newPanel.classList.add(className);
+        parent.append(newPanel);
+    }
+
+    function getNewClass() {
+        const classNumber = getRandomNumberInclusive(0, 3);
+        let workingClassName = getClassNameFromNumber(classNumber);
+
+        if (currentBg === workingClassName) {
+            workingClassName = getNewClass();
+        }
+
+        return workingClassName;
+    }
+</script>
+</body>
+</html>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2023/01/24/Memory-Game.html" target="_blank"
+               title=" Facebook">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Memory+game%20http%3A%2F%2Flocalhost%3A4000%2F2023%2F01%2F24%2FMemory-Game.html"
+               target="_blank" title="">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&u=http://localhost:4000/2023/01/24/Memory-Game.html&quote=Memory+game%20%7C%20Darcie%27s+blog&s="
+               target="_blank" title=" Tumblr">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/2023/01/24/Memory-Game.html&media=$description=%0A%0A++++%0A++++Memory+Game%0A++++%0A%0A%0A"
+               target="_blank" title="">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/2023/01/24/Memory-Game.html&title=Memory+game%20%7C%20Darcie%27s+blog"
+               target="_blank" title=" Reddit">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2023/01/24/Memory-Game.html&title=Memory+game%20%7C%20Darcie%27s+blog&summary=&source=http://localhost:4000/2023/01/24/Memory-Game.html"
+               target="_blank" title=" LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Memory game%20%7C%20Darcie's blog&body=http://localhost:4000/2023/01/24/Memory-Game.html"
+               target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tag</li>
+      
+
+      
+        <li><a class="button" href="/tags#Project">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> Project</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+
+    
+    <div id="next-post">
+        <a alt="Happy Luna New Year" href="/2023/01/21/Luna-New-Year.html">
+            <p>Next post</p>
+            Happy Luna New Year
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  
+
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a></p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml"
+       title="Follow RSS feed"
+       target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/darcie6782"
+               title="Follow on Github"
+               target="_blank"
+               rel="noopener">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="mailto:email@darcie.top"
+               title="Follow on Mail"
+               target="_blank"
+               rel="noopener">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>

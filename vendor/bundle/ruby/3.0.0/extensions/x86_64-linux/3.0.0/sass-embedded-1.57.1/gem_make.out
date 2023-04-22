@@ -1,0 +1,8 @@
+current directory: /home/starklin/darcie.top/vendor/bundle/ruby/3.0.0/gems/sass-embedded-1.57.1/ext/sass
+/usr/bin/ruby3.0 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/starklin/darcie.top/vendor/bundle/ruby/3.0.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/home/starklin/darcie.top/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/sass-embedded-1.57.1 RUBYLIBDIR\=/home/starklin/darcie.top/vendor/bundle/ruby/3.0.0/extensions/x86_64-linux/3.0.0/sass-embedded-1.57.1
+fetch https://github.com/sass/dart-sass-embedded/releases/download/1.57.1/sass_embedded-1.57.1-linux-x64.tar.gz
+tar -vxC . -f sass_embedded-1.57.1-linux-x64.tar.gz --no-same-owner --no-same-permissions
+mkdir -p .
+sass_embedded/src/LICENSE
+sass_embedded/dart-sass-embedded
+rm sass_embedded-1.57.1-linux-x64.tar.gz
