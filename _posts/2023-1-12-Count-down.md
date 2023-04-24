@@ -20,7 +20,6 @@ categories: post
                 document.getElementById(name).innerHTML = d + "D " + h + "H " + m + "M " + s + "S"
             },1000)
         }
-        changeTime("Apr 24, 2023 08:30:00","math");
         changeTime("Apr 25, 2023 08:30:00","zh12");
         changeTime("Apr 26, 2023 09:15:00","zh3");
         changeTime("Apr 27, 2023 08:30:00","ts");
@@ -35,7 +34,7 @@ categories: post
     <p style="color:red">FINISHED</p>
     <h2>Mathematics Compulsory Part 1,2</h2>
     <p>24th April 2023</p>
-    <p id="math">0D 0H 0M 0S</p>
+    <p style="color:red">FINISHED</p>
     <h2>Chinese Language 1,2</h2>
     <p>25th April 2023</p>
     <p id="zh12">0D 0H 0M 0S</p>
