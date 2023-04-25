@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-24T10:41:38+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">Memory game</title><link href="http://localhost:4000/2023/01/24/Memory-Game.html" rel="alternate" type="text/html" title="Memory game" /><published>2023-01-24T00:00:00+00:00</published><updated>2023-01-24T00:00:00+00:00</updated><id>http://localhost:4000/2023/01/24/Memory-Game</id><content type="html" xml:base="http://localhost:4000/2023/01/24/Memory-Game.html"><![CDATA[<html lang="en">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-24T10:46:59+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darcie’s blog</title><subtitle>A website with blog posts and pages</subtitle><entry><title type="html">Memory game</title><link href="http://localhost:4000/2023/01/24/Memory-Game.html" rel="alternate" type="text/html" title="Memory game" /><published>2023-01-24T00:00:00+00:00</published><updated>2023-01-24T00:00:00+00:00</updated><id>http://localhost:4000/2023/01/24/Memory-Game</id><content type="html" xml:base="http://localhost:4000/2023/01/24/Memory-Game.html"><![CDATA[<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <title>Memory Game</title>
@@ -477,7 +477,6 @@
                 document.getElementById(name).innerHTML = d + "D " + h + "H " + m + "M " + s + "S"
             },1000)
         }
-        changeTime("Apr 24, 2023 08:30:00","math");
         changeTime("Apr 25, 2023 08:30:00","zh12");
         changeTime("Apr 26, 2023 09:15:00","zh3");
         changeTime("Apr 27, 2023 08:30:00","ts");
@@ -492,7 +491,7 @@
     <p style="color:red">FINISHED</p>
     <h2>Mathematics Compulsory Part 1,2</h2>
     <p>24th April 2023</p>
-    <p id="math">0D 0H 0M 0S</p>
+    <p style="color:red">FINISHED</p>
     <h2>Chinese Language 1,2</h2>
     <p>25th April 2023</p>
     <p id="zh12">0D 0H 0M 0S</p>
@@ -508,6 +507,6 @@
     <h2>History 1,2</h2>
     <p>15th May 2023</p>
     <p id="ss">0D 0H 0M 0S</p>
-</p></body></html>]]></content><author><name></name></author><category term="post" /><category term="countdown" /><category term="dse" /><summary type="html"><![CDATA[English Language 1,2 21st April 2023 FINISHED English Language 3 (Listening and Integrated Skills) 22rd April 2023 FINISHED Mathematics Compulsory Part 1,2 24th April 2023 0D 0H 0M 0S Chinese Language 1,2 25th April 2023 0D 0H 0M 0S Chinese Language 3 (Listening and Integrated Skills) 26th April 2023 0D 0H 0M 0S Liberal Studies 1,2 27th April 2023 0D 0H 0M 0S Chinese History 1,2 10th May 2023 0D 0H 0M 0S History 1,2 15th May 2023 0D 0H 0M 0S]]></summary></entry><entry><title type="html">Establish blog</title><link href="http://localhost:4000/demo/2023/01/08/Establish-blog.html" rel="alternate" type="text/html" title="Establish blog" /><published>2023-01-08T00:00:00+00:00</published><updated>2023-01-08T00:00:00+00:00</updated><id>http://localhost:4000/demo/2023/01/08/Establish-blog</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/08/Establish-blog.html"><![CDATA[<h1 id="establish-blog">Establish blog</h1>
+</p></body></html>]]></content><author><name></name></author><category term="post" /><category term="countdown" /><category term="dse" /><summary type="html"><![CDATA[English Language 1,2 21st April 2023 FINISHED English Language 3 (Listening and Integrated Skills) 22rd April 2023 FINISHED Mathematics Compulsory Part 1,2 24th April 2023 FINISHED Chinese Language 1,2 25th April 2023 0D 0H 0M 0S Chinese Language 3 (Listening and Integrated Skills) 26th April 2023 0D 0H 0M 0S Liberal Studies 1,2 27th April 2023 0D 0H 0M 0S Chinese History 1,2 10th May 2023 0D 0H 0M 0S History 1,2 15th May 2023 0D 0H 0M 0S]]></summary></entry><entry><title type="html">Establish blog</title><link href="http://localhost:4000/demo/2023/01/08/Establish-blog.html" rel="alternate" type="text/html" title="Establish blog" /><published>2023-01-08T00:00:00+00:00</published><updated>2023-01-08T00:00:00+00:00</updated><id>http://localhost:4000/demo/2023/01/08/Establish-blog</id><content type="html" xml:base="http://localhost:4000/demo/2023/01/08/Establish-blog.html"><![CDATA[<h1 id="establish-blog">Establish blog</h1>
 
 <p>This website is established in 8 Janauary 2023.</p>]]></content><author><name></name></author><category term="Demo" /><category term="record" /><summary type="html"><![CDATA[Establish blog]]></summary></entry></feed>
