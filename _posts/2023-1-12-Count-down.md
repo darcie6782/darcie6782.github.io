@@ -35,7 +35,7 @@ categories: post
     <p style="color:red">FINISHED</p>
     <h2>Chinese Language 1,2</h2>
     <p>25th April 2023</p>
-    <p id="zh12">0D 0H 0M 0S</p>
+    <p style="color:red">FINISHED</p>
     <h2>Chinese Language 3 (Listening and Integrated Skills)</h2>
     <p>26th April 2023</p>
     <p style="color:red">FINISHED</p>
