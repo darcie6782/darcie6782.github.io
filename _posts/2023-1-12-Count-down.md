@@ -20,7 +20,6 @@ categories: post
                 document.getElementById(name).innerHTML = d + "D " + h + "H " + m + "M " + s + "S"
             },1000)
         }
-        changeTime("Apr 27, 2023 08:30:00","ts");
         changeTime("May 10, 2023 08:30:00","zs");
         changeTime("May 15, 2023 08:30:00","ss");
     </script>
@@ -41,7 +40,7 @@ categories: post
     <p style="color:red">FINISHED</p>
     <h2>Liberal Studies 1,2</h2>
     <p>27th April 2023</p>
-    <p id="ts">0D 0H 0M 0S</p>
+    <p style="color:red">FINISHED</p>
     <h2>Chinese History 1,2</h2>
     <p>10th May 2023</p>
     <p id="zs">0D 0H 0M 0S</p>
