@@ -42,7 +42,7 @@ categories: post
     <p style="color:red">FINISHED</p>
     <h2>Chinese History 1,2</h2>
     <p>10th May 2023</p>
-    <p id="zs">0D 0H 0M 0S</p>
+    <p style="color:red">FINISHED</p>
     <h2>History 1,2</h2>
     <p>15th May 2023</p>
     <p id="ss">0D 0H 0M 0S</p>
