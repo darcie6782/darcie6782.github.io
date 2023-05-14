@@ -20,7 +20,6 @@ categories: post
                 document.getElementById(name).innerHTML = d + "D " + h + "H " + m + "M " + s + "S"
             },1000)
         }
-        changeTime("May 10, 2023 08:30:00","zs");
         changeTime("May 15, 2023 08:30:00","ss");
     </script>
     <h2>English Language 1,2</h2>
